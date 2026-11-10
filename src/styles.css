@@ -178,9 +178,7 @@ select {
 .tabs button { background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px; padding: 6px 4px; color: var(--muted); font-size: 13px; }
 .tabs button.active { border-color: var(--accent); color: var(--text); background: var(--accent-soft); }
 
-/* campaign + search */
-.campaign { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
-.campaign .toggle-inline { margin-right: auto; }
+/* search */
 .toggle-inline { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
 .toggle-inline input { accent-color: var(--accent); margin: 0; }
 .search { margin-top: 10px; }

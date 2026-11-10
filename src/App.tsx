@@ -59,7 +59,6 @@ export default function App() {
   });
   const [groups, setGroups] = useState(() => new Set(MAP_GROUPS.map((g) => g.id)));
   const [ghost, setGhost] = useStored('mm.ghost', false);
-  const [campaign, setCampaign] = useStored<string[]>('mm.campaign', []);
   const [disguise, setDisguise] = useState<Disguise | null>(null);
   const [item, setItem] = useState<string | null>(null);
   const [focus, setFocus] = useState<MapNode | null>(null);
@@ -209,7 +208,6 @@ export default function App() {
   if (!index || !meta) return <div className="splash">Loading…</div>;
 
   const games = Object.keys(GAME_NAMES) as (keyof typeof GAME_NAMES)[];
-  const doneHere = campaign.includes(meta.id);
 
   return (
     <div className={`app ${panel ? '' : 'panel-closed'}`}>
@@ -242,7 +240,7 @@ export default function App() {
                   {games.map((g) => (
                     <optgroup key={g} label={GAME_NAMES[g]}>
                       {index.maps.filter((m) => m.game === g).map((m) => (
-                        <option key={m.id} value={m.id}>{campaign.includes(m.id) ? '✓ ' : ''}{m.destination} — {m.mission}</option>
+                        <option key={m.id} value={m.id}>{m.destination} — {m.mission}</option>
                       ))}
                     </optgroup>
                   ))}
@@ -254,18 +252,6 @@ export default function App() {
                     {v === 'standard' ? 'Standard' : 'Alerted'}
                   </button>
                 ))}
-              </div>
-              <div className="campaign small">
-                <label className="toggle-inline">
-                  <input
-                    type="checkbox"
-                    checked={doneHere}
-                    onChange={(e) => setCampaign(e.target.checked ? [...campaign, meta.id] : campaign.filter((c) => c !== meta.id))}
-                  />
-                  Done in current campaign
-                </label>
-                <span className="muted">{campaign.length} done</span>
-                {campaign.length > 0 && <button className="link small" onClick={() => setCampaign([])}>New campaign</button>}
               </div>
               <ItemSearch items={index.items} maps={index.maps} currentMap={meta.id} rarity={index.hideout.rarity} onFind={findItem} />
             </section>
