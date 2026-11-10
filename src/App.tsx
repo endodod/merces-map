@@ -22,6 +22,14 @@ const LAYERS: { id: Layer; label: string; icon: string }[] = [
 
 type Tab = 'map' | 'collection';
 
+function allSources(index: Index) {
+  const urls = new Set<string>(index.collection.sources);
+  for (const r of [...index.hideout.rules, ...(index.hideout.stashAndSafes ? [index.hideout.stashAndSafes] : [])]) r.sources.forEach((s) => urls.add(s));
+  for (const map of Object.values(index.disguiseInfo)) for (const d of Object.values(map)) d.sources.forEach((s) => urls.add(s));
+  for (const picks of Object.values(index.briefings)) for (const p of picks) p.sources.forEach((s) => urls.add(s));
+  return [...urls].filter((u) => /^https?:\/\//.test(u));
+}
+
 /** URL hash: #map[/floor[/variant[/disguiseId]]] */
 function parseHash() {
   const [map, floor, variant, disguise] = decodeURIComponent(location.hash.slice(1)).split('/');
@@ -155,6 +163,8 @@ export default function App() {
     }
     return [...byName.values()];
   }, [classified, index]);
+
+  const areaNodes = useMemo(() => data?.nodes.filter((n) => n.group === 'Area' && n[variant]) ?? [], [data, variant]);
 
   const pickups = useMemo(() => classified.filter((x) => x.layer === 'disguise').map((x) => x.n), [classified]);
 
@@ -301,7 +311,7 @@ export default function App() {
               <label className="toggle option">
                 <input type="checkbox" checked={ghost} onChange={(e) => setGhost(e.target.checked)} />
                 <span className="ghost-swatch">▲▼</span>
-                <span>Show floor above/below (faded)</span>
+                <span>Show other floors (faded)</span>
                 <span />
               </label>
             </section>
@@ -312,6 +322,9 @@ export default function App() {
                 loot={loot}
                 onDisguise={selectDisguiseByName}
                 onItem={(name) => findItem(name, meta.id)}
+                areas={areaNodes}
+                floor={floor}
+                onFocus={focusNode}
               />
             )}
 
@@ -323,14 +336,15 @@ export default function App() {
                 selected={disguise}
                 onSelect={(d) => { setItem(null); setDisguise(d); }}
                 onFocus={focusNode}
+                areas={areaNodes}
+                floor={floor}
               />
             )}
           </>
         )}
 
         <footer className="muted small">
-          Unofficial fan project. Map and item data from{' '}
-          <a href={meta.source} target="_blank" rel="noreferrer">HITMAPS</a> (snapshot {index.snapshotDate}).
+          Unofficial fan project. Map and item data from HITMAPS (snapshot {index.snapshotDate}).
           HITMAN and its assets © IO Interactive.{' '}
           <button className="link" onClick={() => setAbout(true)}>Full credits</button>
           <div className="offline">
@@ -382,7 +396,7 @@ export default function App() {
         </nav>
       </main>
 
-      {about && <About snapshotDate={index.snapshotDate} hideout={index.hideout} onClose={() => setAbout(false)} />}
+      {about && <About snapshotDate={index.snapshotDate} hideout={index.hideout} sources={allSources(index)} onClose={() => setAbout(false)} />}
     </div>
   );
 }

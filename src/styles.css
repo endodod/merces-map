@@ -231,7 +231,7 @@ select {
   background: rgba(13, 14, 16, 0.92); border: 1px solid var(--gold); border-radius: 999px;
   padding: 6px 14px; display: flex; gap: 10px; align-items: center; white-space: nowrap;
 }
-.ghost { opacity: 0.45; position: relative; }
+.ghost { opacity: 0.45; }
 .ghost img { width: 22px; height: 22px; filter: grayscale(0.4); }
 .ghost span {
   position: absolute; right: -6px; bottom: -4px; font-size: 9px; line-height: 1;
@@ -239,3 +239,14 @@ select {
 }
 .ghost:hover { opacity: 0.9; }
 .offline { margin-top: 6px; }
+.col-search { width: 100%; padding: 8px 10px; font: inherit; background: var(--panel-2); color: var(--text); border: 1px solid var(--line); border-radius: 6px; margin: 8px 0 6px; }
+.link.place { color: var(--gold); text-decoration: underline dotted; }
+.ping span {
+  position: absolute; transform: translate(-50%, -50%); white-space: nowrap;
+  background: var(--gold); color: #000; font-weight: 700; padding: 2px 10px; border-radius: 999px;
+  animation: ping 0.8s ease-in-out infinite alternate;
+}
+@keyframes ping { from { box-shadow: 0 0 0 0 rgba(245, 197, 24, 0.7); } to { box-shadow: 0 0 0 12px rgba(245, 197, 24, 0); } }
+.modal details { margin: 4px 0; }
+.modal summary { cursor: pointer; }
+.modal details ul { margin: 4px 0 8px; word-break: break-all; }

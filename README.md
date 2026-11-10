@@ -17,13 +17,15 @@ An unofficial, non-commercial fan project, not affiliated with IO Interactive or
   - **Stashes & safes**: the pool of possible spawn spots (not all are active in every run)
   - **Map-only items**: everything else (melee, explosives, poisons, distractions, keys, …), filterable by type
   - **Disguise pickups**, **Exits**, **Suppliers**
-  - Optional: show the floor above/below as faded markers with ▲/▼; click one to jump to that floor
+  - Optional: show checked items from other floors as faded markers with ▲/▼ ; click one to jump to that floor
 - **Briefing** per map: the most useful disguises (with sources) and the Rare, Epic and Legendary items you can bring back to the hideout
 - **Disguise panel**: pick a disguise to shade its hostile (red) and trespassing (yellow) areas on the map,
-  see who wears it, where they are found, a fast way to get it, where it is lying around, and the sources
+  see who wears it, where they are found, a fast way to get it and where it is lying around; place names
+  in tips (e.g. "Kitchen", "Wine Cellars") are clickable and jump to that spot on the map
+- All source links are collected in the site's *About & sources* dialog
 - **Item search** across all maps ("where is a Katana?"), jumping straight to it
 - **Collection** tab: checklist of every Freelancer rarity-tier weapon and tool for the Safehouse display,
-  with filters and links to the maps where an item lies around
+  with search, filters and links to the maps where an item lies around
 - **Campaign tracker**: mark maps done in the current campaign (✓ in the map list)
 - **Shareable links**: the URL keeps map, floor, variant and selected disguise (`#paris/2/alerted/787`)
 - **Offline mode**: "Save all maps for offline use" caches everything in the browser

@@ -16,6 +16,7 @@ export function Collection({ data, items, maps, onFind }: Props) {
   const [show, setShow] = useState<'all' | 'missing' | 'owned'>('all');
   const [rarity, setRarity] = useState('');
   const [onMapsOnly, setOnMapsOnly] = useState(false);
+  const [query, setQuery] = useState('');
 
   const byKey = useMemo(() => new Map(items.map((i) => [nameKey(i.name), i])), [items]);
   const mapName = (id: string) => maps.find((m) => m.id === id)?.destination ?? id;
@@ -27,6 +28,7 @@ export function Collection({ data, items, maps, onFind }: Props) {
       <h3>Hideout collection</h3>
       <div className="progress"><div style={{ width: `${(done / total) * 100}%` }} /></div>
       <p className="small">{done} / {total} collected <span className="muted">(saved in this browser)</span></p>
+      <input className="col-search" type="search" placeholder="Search weapons and tools…" value={query} onChange={(e) => setQuery(e.target.value)} />
       <div className="filters">
         <select value={show} onChange={(e) => setShow(e.target.value as typeof show)}>
           <option value="all">All items</option>
@@ -46,6 +48,7 @@ export function Collection({ data, items, maps, onFind }: Props) {
         const list = g.items.filter((i) =>
           (show === 'all' || (show === 'owned') === !!owned[i.name]) &&
           (!rarity || i.rarity === rarity) &&
+          i.name.toLowerCase().includes(query.trim().toLowerCase()) &&
           (!onMapsOnly || byKey.has(nameKey(i.name))));
         if (!list.length) return null;
         return (
@@ -78,8 +81,7 @@ export function Collection({ data, items, maps, onFind }: Props) {
       })}
 
       <p className="muted small">
-        {data.basis}{' '}
-        {data.sources.map((s, i) => <a key={s} href={s} target="_blank" rel="noreferrer">[{i + 1}]</a>)}
+        {data.basis}
       </p>
       <button className="link small" onClick={() => confirm('Clear all collected marks?') && setOwned({})}>Reset checklist</button>
     </section>

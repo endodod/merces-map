@@ -7,7 +7,12 @@ const Links = ({ sources }: { sources: string[] }) =>
     </span>
   ) : null;
 
-export function About({ snapshotDate, hideout, onClose }: { snapshotDate: string; hideout: HideoutRules; onClose: () => void }) {
+export function About({ snapshotDate, hideout, sources, onClose }: { snapshotDate: string; hideout: HideoutRules; sources: string[]; onClose: () => void }) {
+  const bySite = new Map<string, string[]>();
+  for (const s of sources) {
+    const host = new URL(s).hostname.replace(/^www\./, '');
+    bySite.set(host, [...(bySite.get(host) ?? []), s]);
+  }
   return (
     <div className="modal-bg" onClick={onClose}>
       <div className="modal" onClick={(e) => e.stopPropagation()}>
@@ -57,6 +62,16 @@ export function About({ snapshotDate, hideout, onClose }: { snapshotDate: string
           {hideout.rules.map((r) => <li key={r.text}>{r.text}<Links sources={r.sources} /></li>)}
           {hideout.stashAndSafes && <li>{hideout.stashAndSafes.text}<Links sources={hideout.stashAndSafes.sources} /></li>}
         </ul>
+
+        <h3>All sources ({sources.length})</h3>
+        {[...bySite.entries()].sort((a, b) => b[1].length - a[1].length).map(([host, urls]) => (
+          <details key={host}>
+            <summary>{host} ({urls.length})</summary>
+            <ul className="small">
+              {urls.sort().map((u) => <li key={u}><a href={u} target="_blank" rel="noreferrer">{decodeURIComponent(u.replace(/^https?:\/\/(www\.)?/, ''))}</a></li>)}
+            </ul>
+          </details>
+        ))}
 
         <h3>Legal</h3>
         <p className="muted">

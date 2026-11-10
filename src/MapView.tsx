@@ -117,10 +117,10 @@ export function MapView({ meta, floor, nodes, areas, highlight, focus, rarity, g
     markerLayer.current!.clearLayers();
     markerById.current.clear();
     for (const n of nodes) {
-      if (ghost && Math.abs(n.level - floor) === 1) {
+      if (ghost && n.level !== floor) {
         L.marker([n.lat, n.lng], {
           icon: ghostIcon(n.icon, n.level > floor),
-          title: `${n.name || n.group} (${n.level > floor ? 'floor above' : 'floor below'}) - click to go there`,
+          title: `${n.name || n.group} (level ${n.level}) - click to go there`,
           zIndexOffset: -1000,
         })
           .on('click', () => jump.current(n))
@@ -158,7 +158,21 @@ export function MapView({ meta, floor, nodes, areas, highlight, focus, rarity, g
   useEffect(() => {
     if (!focus || focus.level !== floor) return;
     map.current!.flyTo([focus.lat, focus.lng], meta.maxZoom, { duration: 0.6 });
-    markerById.current.get(focus.id)?.openPopup();
+    const marker = markerById.current.get(focus.id);
+    if (marker) {
+      marker.openPopup();
+      return;
+    }
+    // Places without a marker (named areas): show a short-lived label
+    const ping = L.marker([focus.lat, focus.lng], {
+      icon: L.divIcon({ className: 'ping', html: `<span>${esc(focus.name)}</span>`, iconSize: [0, 0] }),
+      interactive: false,
+    }).addTo(map.current!);
+    const timer = setTimeout(() => ping.remove(), 4000);
+    return () => {
+      clearTimeout(timer);
+      ping.remove();
+    };
   }, [focus, floor, meta]);
 
   return <div ref={el} className="map" />;

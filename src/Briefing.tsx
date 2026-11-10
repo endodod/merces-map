@@ -1,18 +1,23 @@
 import { RARITY_ORDER } from './data';
-import type { BriefingPick } from './types';
+import { Linked } from './Linked';
+import type { BriefingPick, MapNode } from './types';
 
 interface Props {
   picks: BriefingPick[];
   loot: { name: string; icon: string; rarity: string; count: number }[];
   onDisguise: (name: string) => void;
   onItem: (name: string) => void;
+  areas: MapNode[];
+  floor: number;
+  onFocus: (n: MapNode) => void;
 }
 
 export const RarityBadge = ({ rarity }: { rarity: string }) => (
   <span className={`rarity r-${rarity.toLowerCase()}`}>{rarity}</span>
 );
 
-export function Briefing({ picks, loot, onDisguise, onItem }: Props) {
+export function Briefing({ picks, loot, onDisguise, onItem, areas, floor, onFocus }: Props) {
+  const L = (text: string) => <Linked text={text} areas={areas} floor={floor} onFocus={onFocus} />;
   // Common items (guard pistols, rifles, shotguns, ...) are on almost every map, so only Rare and up are listed.
   const sorted = loot
     .filter((l) => l.rarity !== 'Common')
@@ -27,11 +32,8 @@ export function Briefing({ picks, loot, onDisguise, onItem }: Props) {
         {picks.map((p) => (
           <li key={p.disguise}>
             <button className="link strong" onClick={() => onDisguise(p.disguise)}>{p.disguise}</button>
-            <span> — {p.why}</span>
-            {p.howToGet && <div className="muted small">How: {p.howToGet}</div>}
-            <span className="sources">
-              {p.sources.map((s, i) => <a key={s} href={s} target="_blank" rel="noreferrer">[{i + 1}]</a>)}
-            </span>
+            <span> — {L(p.why)}</span>
+            {p.howToGet && <div className="muted small">How: {L(p.howToGet)}</div>}
           </li>
         ))}
       </ul>

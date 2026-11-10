@@ -34,7 +34,7 @@ async function pool(items, size, fn) {
   }));
 }
 
-const KEEP_GROUPS = ['Starting Location', 'Stash', 'Safe', 'Disguise', 'Misc Item', 'Exit Location', 'Supplier'];
+const KEEP_GROUPS = ['Starting Location', 'Stash', 'Safe', 'Disguise', 'Misc Item', 'Exit Location', 'Supplier', 'Area'];
 const ITEM_GROUPS = (n) => n.type === 'Weapons and Tools' || n.group === 'Misc Item';
 const itemIndex = new Map();
 const round = (x) => Math.round(Number(x) * 1000) / 1000;
@@ -66,7 +66,7 @@ for (const game of GAMES) {
             group: n.group,
             subgroup: n.subgroup,
             icon: n.icon,
-            name: n.name,
+            name: n.name.replace(/\s+/g, ' ').trim(),
             target: n.target,
             level: n.level,
             lat: Number(n.latitude),

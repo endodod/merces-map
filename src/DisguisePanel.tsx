@@ -1,4 +1,5 @@
 import { floorLabel } from './data';
+import { Linked } from './Linked';
 import type { Disguise, DisguiseInfo, MapNode } from './types';
 
 interface Props {
@@ -8,9 +9,12 @@ interface Props {
   selected: Disguise | null;
   onSelect: (d: Disguise | null) => void;
   onFocus: (n: MapNode) => void;
+  areas: MapNode[];
+  floor: number;
 }
 
-function DisguiseCard({ d, info, pickups, onFocus }: { d: Disguise; info?: DisguiseInfo; pickups: MapNode[]; onFocus: Props['onFocus'] }) {
+function DisguiseCard({ d, info, pickups, onFocus, areas, floor }: { d: Disguise; info?: DisguiseInfo; pickups: MapNode[]; onFocus: Props['onFocus']; areas: MapNode[]; floor: number }) {
+  const L = (text: string) => <Linked text={text} areas={areas} floor={floor} onFocus={onFocus} />;
   const hasAreas = d.areas.some((a) => a.vertices.length >= 3);
   return (
     <div className="card">
@@ -21,10 +25,10 @@ function DisguiseCard({ d, info, pickups, onFocus }: { d: Disguise; info?: Disgu
           {d.suit && <div className="muted">47's own suit</div>}
         </div>
       </div>
-      {info?.wornBy && <p><b>Worn by:</b> {info.wornBy}</p>}
-      {info?.foundAt && <p><b>Found at:</b> {info.foundAt}</p>}
-      {info?.howToGet && <p><b>How to get:</b> {info.howToGet}</p>}
-      {info?.fastTip && <p><b>Fast tip:</b> {info.fastTip}</p>}
+      {info?.wornBy && <p><b>Worn by:</b> {L(info.wornBy)}</p>}
+      {info?.foundAt && <p><b>Found at:</b> {L(info.foundAt)}</p>}
+      {info?.howToGet && <p><b>How to get:</b> {L(info.howToGet)}</p>}
+      {info?.fastTip && <p><b>Fast tip:</b> {L(info.fastTip)}</p>}
       {pickups.length > 0 && (
         <div>
           <b>Lying around ({pickups.length}):</b>
@@ -56,15 +60,14 @@ function DisguiseCard({ d, info, pickups, onFocus }: { d: Disguise; info?: Disgu
       </div>
       {info && info.sources.length > 0 && (
         <div className="sources">
-          Descriptions are based on main-mission guides; story targets and their scripted scenes are absent in Freelancer.<br />
-          Sources: {info.sources.map((s, i) => <a key={s} href={s} target="_blank" rel="noreferrer">[{i + 1}]</a>)}
+          Based on main-mission guides; story targets and their scripted scenes are absent in Freelancer. Highlighted places are clickable. Sources are listed under About &amp; sources.
         </div>
       )}
     </div>
   );
 }
 
-export function DisguisePanel({ disguises, info, pickups, selected, onSelect, onFocus }: Props) {
+export function DisguisePanel({ disguises, info, pickups, selected, onSelect, onFocus, areas, floor }: Props) {
   const npc = disguises.filter((d) => !d.suit);
   const suits = disguises.filter((d) => d.suit);
   const item = (d: Disguise) => (
@@ -82,7 +85,7 @@ export function DisguisePanel({ disguises, info, pickups, selected, onSelect, on
     <section>
       <h3>Disguises <span className="muted">— select to show access</span></h3>
       {selected && (
-        <DisguiseCard d={selected} info={info[selected.name]} pickups={pickups.filter((p) => p.name === selected.name)} onFocus={onFocus} />
+        <DisguiseCard d={selected} info={info[selected.name]} pickups={pickups.filter((p) => p.name === selected.name)} onFocus={onFocus} areas={areas} floor={floor} />
       )}
       <div className="disguise-grid">{npc.map(item)}</div>
       {suits.length > 0 && (
