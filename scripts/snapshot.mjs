@@ -34,7 +34,9 @@ async function pool(items, size, fn) {
   }));
 }
 
-const KEEP_GROUPS = ['Starting Location', 'Stash', 'Safe', 'Disguise', 'Misc Item'];
+const KEEP_GROUPS = ['Starting Location', 'Stash', 'Safe', 'Disguise', 'Misc Item', 'Exit Location', 'Supplier'];
+const ITEM_GROUPS = (n) => n.type === 'Weapons and Tools' || n.group === 'Misc Item';
+const itemIndex = new Map();
 const round = (x) => Math.round(Number(x) * 1000) / 1000;
 
 const maps = [];
@@ -106,6 +108,12 @@ for (const game of GAMES) {
 
       const id = loc.slug;
       await save(`data/${id}.json`, { nodes, disguises });
+      for (const n of nodes) {
+        if (!ITEM_GROUPS(n) || !n.name) continue;
+        const entry = itemIndex.get(n.name) ?? { name: n.name, group: n.group, icon: n.icon, maps: {} };
+        entry.maps[id] = (entry.maps[id] ?? 0) + 1;
+        itemIndex.set(n.name, entry);
+      }
       maps.push({
         id,
         game,
@@ -140,5 +148,6 @@ await pool([...icons], 6, async (icon) => {
   else console.warn(`missing icon: ${icon}`);
 });
 
+await save('data/items.json', [...itemIndex.values()].sort((a, b) => a.name.localeCompare(b.name)));
 await save('data/maps.json', { snapshotDate: new Date().toISOString().slice(0, 10), maps });
 console.log(`done: ${maps.length} maps, ${icons.size} icons`);

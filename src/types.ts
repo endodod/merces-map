@@ -54,6 +54,7 @@ export interface Disguise {
 }
 
 export interface MapData {
+  mapId: string;
   nodes: MapNode[];
   disguises: Disguise[];
 }
@@ -78,9 +79,39 @@ export interface HideoutRules {
   rarity: Record<string, string>;
 }
 
+export interface ItemIndexEntry {
+  name: string;
+  group: string;
+  icon: string;
+  maps: Record<string, number>;
+}
+
+export interface BriefingPick {
+  disguise: string;
+  why: string;
+  howToGet: string | null;
+  sources: string[];
+}
+
+export interface CollectionData {
+  basis: string;
+  sources: string[];
+  groups: { name: string; items: { name: string; rarity: string }[] }[];
+}
+
+export interface ShowdownData {
+  howItWorks: SourcedText;
+  categories: { name: string; values: string[]; note?: string; sources: string[] }[];
+  tips: SourcedText[];
+}
+
 export interface Index {
   snapshotDate: string;
   maps: MapMeta[];
   hideout: HideoutRules;
   disguiseInfo: Record<string, Record<string, DisguiseInfo>>;
+  items: ItemIndexEntry[];
+  briefings: Record<string, BriefingPick[]>;
+  collection: CollectionData;
+  showdown: ShowdownData;
 }

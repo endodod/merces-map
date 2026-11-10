@@ -1,0 +1,243 @@
+{
+ "paris": [
+  {
+   "disguise": "CICADA Bodyguard",
+   "why": "Lets you travel across the whole map, though a few guards can still recognize you.",
+   "howToGet": "Subdue one of the two guards patrolling near the small northern building and hide the body in a container.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises-and-important-items-paris-the-showstopper/z487cb"
+   ]
+  },
+  {
+   "disguise": "Auction Staff",
+   "why": "Reaches the 2nd and 3rd floors after a search, but not the private quarters or attic.",
+   "howToGet": "Subdue a lone worker in a western 2nd-floor room or the northern piano room.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises-and-important-items-paris-the-showstopper/z487cb"
+   ]
+  }
+ ],
+ "sapienza": [
+  {
+   "disguise": "Housekeeper",
+   "why": "Good universal mansion disguise, though many staff may recognize you.",
+   "howToGet": "Take it from the laundry.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises-sapienza/z58fdc"
+   ]
+  },
+  {
+   "disguise": "Lab Technician",
+   "why": "Opens the lab, though staff will see through it.",
+   "howToGet": "Take it from a dead employee in the morgue.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises-sapienza/z58fdc"
+   ]
+  }
+ ],
+ "marrakesh": [
+  {
+   "disguise": "Elite Soldier",
+   "why": "Lets you move around all of level 0 in the consulate and the school.",
+   "howToGet": "Enter the level 0 tunnel through the underground car park, stun the guard who shows up and hide him in the closet.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises-marrakesh/z894e6"
+   ]
+  },
+  {
+   "disguise": "Cameraman",
+   "why": "Lets you walk around the consulate freely.",
+   "howToGet": "Wait for him to visit the shisha cafe bathroom, stun him at the sink and hide the body.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises-marrakesh/z894e6"
+   ]
+  }
+ ],
+ "bangkok": [
+  {
+   "disguise": "Recording Crew",
+   "why": "Described as getting you into many places.",
+   "howToGet": "Take it from the man in room 202's bedroom, reached by climbing the gutter from room 102.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises-bangkok/z29513"
+   ]
+  },
+  {
+   "disguise": "Groundskeeper",
+   "why": "Access to the back of the hotel and the first floor.",
+   "howToGet": "Knock out a groundskeeper in the garden, ideally behind the stone flowerbed.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises-bangkok/z29513"
+   ]
+  }
+ ],
+ "colorado": [
+  {
+   "disguise": "Hacker",
+   "why": "Reaches the main building (except two restricted rooms) and all regular farm areas, with a lower chance of being recognized.",
+   "howToGet": "Sabotage a server in the ground-floor server room, then take out the hacker who investigates.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises-colorado/z8959a"
+   ]
+  },
+  {
+   "disguise": "Militia Elite",
+   "why": "Same broad farm and main-building access as the Hacker.",
+   "howToGet": "Take the spare uniform in the house, or an enemy by the small garage east of the house.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises-colorado/z8959a"
+   ]
+  }
+ ],
+ "hokkaido": [
+  {
+   "disguise": "Bodyguard",
+   "why": "Called one of the best disguises in Hokkaido because bodyguards can go almost anywhere.",
+   "howToGet": "Separate two bodyguards near the south cable cart with a thrown object and eliminate one, or lure a patrolling bodyguard near the morgue stairs.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  {
+   "disguise": "Doctor",
+   "why": "Access to patient apartments and the main building.",
+   "howToGet": "Poison a meal in the kitchen or a bottle in the main building and attack the doctor in a toilet.",
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  }
+ ],
+ "miami": [
+  {
+   "disguise": "Kronstadt Security",
+   "why": "Called the best overall; near-highest clearance, can carry weapons on the back without suspicion.",
+   "howToGet": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman-2/most-important-outfits/z7b975"
+   ]
+  },
+  {
+   "disguise": "Kronstadt Engineer",
+   "why": "Moves freely around the Kronstadt building and many zones; often carries the magnetic entrance card.",
+   "howToGet": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman-2/most-important-outfits/z7b975"
+   ]
+  }
+ ],
+ "santa-fortuna": [
+  {
+   "disguise": "Mansion Guard",
+   "why": "The disguise for entering Rico's mansion.",
+   "howToGet": "Find the guard near Rico's hippo at the back of the caves past the ancient ruins and take his outfit.",
+   "sources": [
+    "https://www.gameshedge.com/hitman-2-santa-fortuna-walkthrough-guide-points-of-interest-items/"
+   ]
+  }
+ ],
+ "mumbai": [],
+ "whittleton-creek": [],
+ "ambrose-island": [],
+ "isle-of-sgail": [
+  {
+   "disguise": "Elite Guard",
+   "why": "Called the best disguise: full access to the castle top floor (conclave room, Penthouse, Library, Constant's Office).",
+   "howToGet": "Take it from the same balcony as the Castle Staff outfit by luring a guard with a thrown object.",
+   "sources": [
+    "https://guides.gamepressure.com/hitman-2/guide.asp?ID=48200"
+   ]
+  },
+  {
+   "disguise": "Guard",
+   "why": "Gives access to the lower levels of the castle.",
+   "howToGet": null,
+   "sources": [
+    "https://guides.gamepressure.com/hitman-2/guide.asp?ID=48200"
+   ]
+  }
+ ],
+ "new-york": [],
+ "haven-island": [],
+ "dubai": [
+  {
+   "disguise": "Event Security",
+   "why": "White uniform roams a large part of the map and enters staff-only locked rooms.",
+   "howToGet": "Take a guard on the stairs above the opening-reception bar floor and hide him in a closet.",
+   "sources": [
+    "https://www.gamepressure.com/hitman-iii/best-disguises-dubai-list/zae12b"
+   ]
+  },
+  {
+   "disguise": "Penthouse Guard",
+   "why": "Can carry a gun across the map and reach the top floor.",
+   "howToGet": "Turn off the cameras on the third floor, then attack the guard patrolling by the server room.",
+   "sources": [
+    "https://www.gamepressure.com/hitman-iii/best-disguises-dubai-list/zae12b"
+   ]
+  }
+ ],
+ "dartmoor": [
+  {
+   "disguise": "Bodyguard",
+   "why": "Easiest disguise for moving around and exploring, with fewer detection risks.",
+   "howToGet": "Lure a guard from the west wall with a coin or poisoned bottle and take him out in the toilet.",
+   "sources": [
+    "https://www.gamepressure.com/hitman-iii/best-disguises-dartmoor/zbe123"
+   ]
+  }
+ ],
+ "berlin": [
+  {
+   "disguise": "Biker",
+   "why": "Best in Berlin: the only disguise that opens the biker building and the keycard-locked level -2 rooms.",
+   "howToGet": "Take the unused outfit from the small toilet in the biker building, or take down a motorcyclist in the level -2 corridor.",
+   "sources": [
+    "https://www.gamepressure.com/hitman-iii/best-disguises-berlin-list/z8e1aa"
+   ]
+  },
+  {
+   "disguise": "Club Security",
+   "why": "Free movement through most of the club.",
+   "howToGet": "Lure a guard from the outpost west of the club with a thrown object.",
+   "sources": [
+    "https://www.gamepressure.com/hitman-iii/best-disguises-berlin-list/z8e1aa"
+   ]
+  }
+ ],
+ "chongqing": [
+  {
+   "disguise": "Street Guard",
+   "why": "Move through the whole open area (streets, alleys, rooftops); most guards ignore you.",
+   "howToGet": "Crowbar the Arcade game room side door and take the outfit from the cardboard boxes.",
+   "sources": [
+    "https://www.gamepressure.com/hitman-iii/best-disguises-chongqing-list/zce1ae"
+   ]
+  },
+  {
+   "disguise": "Facility Guard",
+   "why": "Moves through the underground ICA complex.",
+   "howToGet": "Take it from a level -3 guard by distracting him with a terminal and ambushing from the closet.",
+   "sources": [
+    "https://www.gamepressure.com/hitman-iii/best-disguises-chongqing-list/zce1ae"
+   ]
+  }
+ ],
+ "mendoza": [
+  {
+   "disguise": "Mercenary",
+   "why": "Called the best in the mission; lets you move across most of the map.",
+   "howToGet": "Lure one with a coin into the garden beside the parking-lot trailer, or open the level 2 armory cabinet.",
+   "sources": [
+    "https://www.gamepressure.com/hitman-iii/best-disguises/zbe231"
+   ]
+  },
+  {
+   "disguise": "Bodyguard",
+   "why": "Gets into winery areas guests cannot enter.",
+   "howToGet": "Take one in a secluded spot near the parking lot.",
+   "sources": [
+    "https://www.gamepressure.com/hitman-iii/best-disguises/zbe231"
+   ]
+  }
+ ]
+}

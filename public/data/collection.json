@@ -1,0 +1,1002 @@
+{
+ "basis": "No explicit per-slot list exists; this is the full list of Freelancer rarity-tier items (all collectible weapons/tools). Per the wiki Safehouse page, weapons obtained on missions are stored in the large glass wall display cases (unowned ones shown as silhouettes) and Tools in three open suitcases on the leftmost bench.",
+ "sources": [
+  "https://hitman.fandom.com/wiki/Safehouse",
+  "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Common",
+  "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Rare",
+  "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Epic",
+  "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Legendary"
+ ],
+ "groups": [
+  {
+   "name": "Melee & Throwables",
+   "items": [
+    {
+     "name": "Amputation Knife",
+     "rarity": "Common"
+    },
+    {
+     "name": "Baseball Bat",
+     "rarity": "Common"
+    },
+    {
+     "name": "Claw Hammer",
+     "rarity": "Common"
+    },
+    {
+     "name": "Folding Knife",
+     "rarity": "Common"
+    },
+    {
+     "name": "ICA Combat Axe",
+     "rarity": "Common"
+    },
+    {
+     "name": "Machete",
+     "rarity": "Common"
+    },
+    {
+     "name": "Police Baton",
+     "rarity": "Common"
+    },
+    {
+     "name": "\"Good Quark VOL. 3\" VHS Tape",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Circumcision Knife",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Concealable Baton",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Concealable Knife",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Golden Dragon Scissors",
+     "rarity": "Rare"
+    },
+    {
+     "name": "HF Championship Bat",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Ice Pick",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Jar of Mom's Spaghetti Sauce",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Kukri Knife",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Mace",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Okinawan Tonfa",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Quickdraw",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Saber",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Sapper's Axe",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Shuriken",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Tanto",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Disruptor Resistance Band",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Bat Shuriken",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Blunt Knife",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Burial Dagger",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Consolation Prize",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Eiffel Tower Knife",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Fiber Wire",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Gold Medal",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Ice Axe",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Janbiya",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Kali Sticks",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Katana",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Kronstadt IOI-1998X Surround Earphones",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Sickle Sacrificus",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Spooky Bat",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Ancestral Knife",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Banker Rope",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Concrete Bat",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Disruptor Kettlebell",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Ornamental Katana",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Splitter Kukri Knife",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Antique Curved Knife",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "Jade Dagger",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "Masamune",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "The Club Boom 12\" Vinyl Sampler",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "The Disruptor Cane",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "The Makeshift Katana",
+     "rarity": "Legendary"
+    }
+   ]
+  },
+  {
+   "name": "Pistols",
+   "items": [
+    {
+     "name": "Bartoli 75S",
+     "rarity": "Common"
+    },
+    {
+     "name": "Bartoli 75R",
+     "rarity": "Common"
+    },
+    {
+     "name": "Hackl 9R",
+     "rarity": "Common"
+    },
+    {
+     "name": "Hackl 9S",
+     "rarity": "Common"
+    },
+    {
+     "name": "HWK21",
+     "rarity": "Common"
+    },
+    {
+     "name": "HWK21 Covert",
+     "rarity": "Common"
+    },
+    {
+     "name": "HWK21 Pale",
+     "rarity": "Common"
+    },
+    {
+     "name": "ICA19 Classicballer",
+     "rarity": "Common"
+    },
+    {
+     "name": "ICA19 F/A",
+     "rarity": "Common"
+    },
+    {
+     "name": "Assassin's HWK21 Covert",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Concept 5",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Custom 5mm",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Hackl 9S Covert",
+     "rarity": "Rare"
+    },
+    {
+     "name": "HWK21 Pale Homemade Silencer",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA19",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Kalmer 2 - Tranquilizer",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Krugermeier 2-2 Silver",
+     "rarity": "Rare"
+    },
+    {
+     "name": "\"Rude Ruby\"",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Sieker 1",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Striker",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Ornamental Pistol",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Collector's Kalmer Sedative Edition",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Collector's Sieker Emetic Edition",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Custom 5mm DTI",
+     "rarity": "Epic"
+    },
+    {
+     "name": "\"El Matador\"",
+     "rarity": "Epic"
+    },
+    {
+     "name": "ICA DTI Stealth",
+     "rarity": "Epic"
+    },
+    {
+     "name": "ICA19 Black Lily",
+     "rarity": "Epic"
+    },
+    {
+     "name": "ICA19 Black Trinity",
+     "rarity": "Epic"
+    },
+    {
+     "name": "ICA19 Chrome",
+     "rarity": "Epic"
+    },
+    {
+     "name": "ICA19 F/A Stealth",
+     "rarity": "Epic"
+    },
+    {
+     "name": "ICA19 F/A Stealth \"Ducky\" Edition",
+     "rarity": "Epic"
+    },
+    {
+     "name": "ICA19 Red Trinity",
+     "rarity": "Epic"
+    },
+    {
+     "name": "ICA19 White Trinity",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Krugermeier 2-2",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Ancestral Pistol",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Concrete Bunny Pistol",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Scrap Gun",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Aircrush 73",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "Bartoli 75S \"Lucky Knight\"",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "ICA19 Goldballer",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "ICA19 Shortballer",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "ICA19 Silverballer",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "The Banker Silenced Pistol",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "The Prank Pistol",
+     "rarity": "Legendary"
+    }
+   ]
+  },
+  {
+   "name": "SMGs",
+   "items": [
+    {
+     "name": "DAK X2",
+     "rarity": "Common"
+    },
+    {
+     "name": "HX-7",
+     "rarity": "Common"
+    },
+    {
+     "name": "HX-10",
+     "rarity": "Common"
+    },
+    {
+     "name": "ICA SMG Raptor",
+     "rarity": "Common"
+    },
+    {
+     "name": "TAC-SMG",
+     "rarity": "Common"
+    },
+    {
+     "name": "DAK Black Covert",
+     "rarity": "Rare"
+    },
+    {
+     "name": "DAK DTI",
+     "rarity": "Rare"
+    },
+    {
+     "name": "DAK X2 Covert",
+     "rarity": "Rare"
+    },
+    {
+     "name": "HX-7 Covert",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA SMG White Raptor Covert",
+     "rarity": "Rare"
+    },
+    {
+     "name": "TAC-SMG Covert",
+     "rarity": "Rare"
+    },
+    {
+     "name": "TAC-SMG S",
+     "rarity": "Rare"
+    },
+    {
+     "name": "DAK X2 Covert Special",
+     "rarity": "Epic"
+    },
+    {
+     "name": "ICA SMG Raptor Covert",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Scrap SMG",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Ornamental SMG",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "The Shark SMG",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "The Splitter SMG",
+     "rarity": "Legendary"
+    }
+   ]
+  },
+  {
+   "name": "Shotguns",
+   "items": [
+    {
+     "name": "Bartoli 12G",
+     "rarity": "Common"
+    },
+    {
+     "name": "Bartoli 12G Short H",
+     "rarity": "Common"
+    },
+    {
+     "name": "Bartoli Hunting Shotgun",
+     "rarity": "Common"
+    },
+    {
+     "name": "Enram HV",
+     "rarity": "Common"
+    },
+    {
+     "name": "ICA Tactical Shotgun",
+     "rarity": "Common"
+    },
+    {
+     "name": "Tactical Bartoli 12G",
+     "rarity": "Common"
+    },
+    {
+     "name": "Enram HV CM",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Tactical Shotgun Covert",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Sawed Off Bartoli 12G",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Ancestral Shotgun",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Concrete Shotgun",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Makeshift Scrap Shotgun",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Enram HV Covert",
+     "rarity": "Epic"
+    },
+    {
+     "name": "ICA Tactical White Shotgun Covert",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Ornamental Shotgun",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Golden Sawed Off Bartoli 12G",
+     "rarity": "Legendary"
+    }
+   ]
+  },
+  {
+   "name": "Assault Rifles",
+   "items": [
+    {
+     "name": "Fusil G1-4",
+     "rarity": "Common"
+    },
+    {
+     "name": "Fusil G1-4/C",
+     "rarity": "Common"
+    },
+    {
+     "name": "Fusil G2",
+     "rarity": "Common"
+    },
+    {
+     "name": "Shashka A33",
+     "rarity": "Common"
+    },
+    {
+     "name": "Sieger AR552 Tactical",
+     "rarity": "Common"
+    },
+    {
+     "name": "TAC-4 AR Auto",
+     "rarity": "Common"
+    },
+    {
+     "name": "Shashka A33 Covert",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Shashka A33 H",
+     "rarity": "Rare"
+    },
+    {
+     "name": "TAC-4 AR Stealth",
+     "rarity": "Rare"
+    },
+    {
+     "name": "TAC-4 S/A",
+     "rarity": "Rare"
+    },
+    {
+     "name": "TAC-4 S/A Jungle",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Ancestral Assault Rifle",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Concrete Assault Rifle",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Ornamental Assault Rifle",
+     "rarity": "Rare"
+    },
+    {
+     "name": "RS-15",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Shashka A33 Gold",
+     "rarity": "Epic"
+    },
+    {
+     "name": "TAC-4 AR Desert",
+     "rarity": "Epic"
+    },
+    {
+     "name": "The Makeshift Scrap Assault Rifle",
+     "rarity": "Epic"
+    },
+    {
+     "name": "TAC 'N' Yellow",
+     "rarity": "Legendary"
+    }
+   ]
+  },
+  {
+   "name": "Sniper Rifles",
+   "items": [
+    {
+     "name": "Bartoli Woodsman Hunting Rifle",
+     "rarity": "Common"
+    },
+    {
+     "name": "Jaeger 7",
+     "rarity": "Common"
+    },
+    {
+     "name": "Sieger 300",
+     "rarity": "Common"
+    },
+    {
+     "name": "Druzhina 34",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Druzhina 34 DTI",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Jaeger 7 Covert",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Jaeger 7 Lancer",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Jaeger 7 Tiger",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Sieger 300 Tactical",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Scrappy Sniper Rifle",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Druzhina 34 ICA Arctic",
+     "rarity": "Epic"
+    },
+    {
+     "name": "ICA Bartoli Woodsman Hunting Rifle Covert",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Sieger 300 Advanced",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Sieger 300 Viper",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Hackl Leviathan Sniper Rifle Covert",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "Jaeger 7 Tuatara",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "Sieger 300 Ghost",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "The Ancestral Sniper Rifle",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "The Concrete Sniper Rifle",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "The Ornamental Sniper Rifle",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "UL-LR Sport Rifle",
+     "rarity": "Legendary"
+    }
+   ]
+  },
+  {
+   "name": "Explosives",
+   "items": [
+    {
+     "name": "Breaching Charge Mk III",
+     "rarity": "Common"
+    },
+    {
+     "name": "Flash Grenade Mk III",
+     "rarity": "Common"
+    },
+    {
+     "name": "Fragmentation Grenade",
+     "rarity": "Common"
+    },
+    {
+     "name": "ICA Proximity Concussion Device Mk III",
+     "rarity": "Common"
+    },
+    {
+     "name": "ICA Proximity Explosive Mk III",
+     "rarity": "Common"
+    },
+    {
+     "name": "Proximity Explosive Duck",
+     "rarity": "Common"
+    },
+    {
+     "name": "Proximity Semtex Demo Block Mk III",
+     "rarity": "Common"
+    },
+    {
+     "name": "Remote Explosive",
+     "rarity": "Common"
+    },
+    {
+     "name": "Remote Semtex Demo Block Mk III",
+     "rarity": "Common"
+    },
+    {
+     "name": "Concussion Grenade",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Emetic Grenade",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Explosive Phone",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Impact Explosive",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Micro Remote Explosive",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Proximity Micro Explosive",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Remote Concussion Device",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Remote Explosive Mk III",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Tripwire Mine",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Kronstadt Explosive Pen (Gen 2)",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Pale Duck",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Red Light Flash Grenade",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The Trickshot Duck",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Mr. Chainsaw Jr.",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Remote Concussion Collector's Rubber Duck",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Remote Concussion Rubber Duck",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Remote Explosive Classic Rubber Duck",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Kronstadt Mini Flash Robo XOI-2900",
+     "rarity": "Legendary"
+    },
+    {
+     "name": "Remote Explosive Devil Rubber Duck",
+     "rarity": "Legendary"
+    }
+   ]
+  },
+  {
+   "name": "Poisons",
+   "items": [
+    {
+     "name": "Emetic Poison Vial",
+     "rarity": "Common"
+    },
+    {
+     "name": "Lethal Poison Vial",
+     "rarity": "Common"
+    },
+    {
+     "name": "Modern Emetic Syringe",
+     "rarity": "Common"
+    },
+    {
+     "name": "Modern Lethal Syringe",
+     "rarity": "Common"
+    },
+    {
+     "name": "Modern Sedative Syringe",
+     "rarity": "Common"
+    },
+    {
+     "name": "Sedative Poison Vial",
+     "rarity": "Common"
+    },
+    {
+     "name": "Antique Emetic Syringe",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Antique Lethal Syringe",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Antique Sedative Syringe",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Chloroform Flask",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Emetic Pills",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Lethal Pills",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Sedative Pills",
+     "rarity": "Rare"
+    }
+   ]
+  },
+  {
+   "name": "Tools",
+   "items": [
+    {
+     "name": "Disposable Scrambler",
+     "rarity": "Common"
+    },
+    {
+     "name": "Handyman Wrench",
+     "rarity": "Common"
+    },
+    {
+     "name": "ICA Proximity Taser",
+     "rarity": "Common"
+    },
+    {
+     "name": "ICA Remote Flash Device",
+     "rarity": "Common"
+    },
+    {
+     "name": "ICA Remote Taser",
+     "rarity": "Common"
+    },
+    {
+     "name": "ICA Titanium Crowbar",
+     "rarity": "Common"
+    },
+    {
+     "name": "Oil Canister",
+     "rarity": "Common"
+    },
+    {
+     "name": "Professional Screwdriver",
+     "rarity": "Common"
+    },
+    {
+     "name": "Water Canister",
+     "rarity": "Common"
+    },
+    {
+     "name": "Electronic Key Hacker",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Electronic Key Hacker Mk III",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Flash Phone",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Proximity Micro Taser",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Remote Micro Taser",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Lockpick Mk III",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Manypass",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Remote Emetic Gas Device",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Remote EMP Charge",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Collector's Lockpick",
+     "rarity": "Epic"
+    },
+    {
+     "name": "Collector's Crowbar",
+     "rarity": "Epic"
+    }
+   ]
+  },
+  {
+   "name": "Distractions",
+   "items": [
+    {
+     "name": "ICA Remote Audio Distraction Mk III",
+     "rarity": "Common"
+    },
+    {
+     "name": "Beatdown Boombox",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Outstanding Service Coin",
+     "rarity": "Rare"
+    },
+    {
+     "name": "ICA Remote Micro Audio Distraction",
+     "rarity": "Rare"
+    },
+    {
+     "name": "The \"Casino Monarchique\" Chip (1.000.000)",
+     "rarity": "Rare"
+    },
+    {
+     "name": "Collector's Coin",
+     "rarity": "Epic"
+    }
+   ]
+  }
+ ]
+}

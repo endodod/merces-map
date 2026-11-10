@@ -11,6 +11,22 @@ interface Props {
   highlight: Set<number>;
   focus: MapNode | null;
   rarity: Record<string, string>;
+  ghost: boolean;
+  onJump: (n: MapNode) => void;
+}
+
+const ghostIcons = new Map<string, L.DivIcon>();
+function ghostIcon(name: string, up: boolean) {
+  const key = `${name}:${up}`;
+  if (!ghostIcons.has(key)) {
+    ghostIcons.set(key, L.divIcon({
+      html: `<img src="icons/${name}.png" alt=""><span>${up ? '▲' : '▼'}</span>`,
+      iconSize: [22, 22],
+      iconAnchor: [11, 11],
+      className: 'ghost',
+    }));
+  }
+  return ghostIcons.get(key)!;
 }
 
 const esc = (s: string) => s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
@@ -45,8 +61,10 @@ function popupHtml(n: MapNode, rarity: Record<string, string>) {
   </div>`;
 }
 
-export function MapView({ meta, floor, nodes, areas, highlight, focus, rarity }: Props) {
+export function MapView({ meta, floor, nodes, areas, highlight, focus, rarity, ghost, onJump }: Props) {
   const el = useRef<HTMLDivElement>(null);
+  const jump = useRef(onJump);
+  jump.current = onJump;
   const map = useRef<L.Map | null>(null);
   const overlay = useRef<L.SVGOverlay | null>(null);
   const markerLayer = useRef<L.LayerGroup | null>(null);
@@ -99,6 +117,16 @@ export function MapView({ meta, floor, nodes, areas, highlight, focus, rarity }:
     markerLayer.current!.clearLayers();
     markerById.current.clear();
     for (const n of nodes) {
+      if (ghost && Math.abs(n.level - floor) === 1) {
+        L.marker([n.lat, n.lng], {
+          icon: ghostIcon(n.icon, n.level > floor),
+          title: `${n.name || n.group} (${n.level > floor ? 'floor above' : 'floor below'}) - click to go there`,
+          zIndexOffset: -1000,
+        })
+          .on('click', () => jump.current(n))
+          .addTo(markerLayer.current!);
+        continue;
+      }
       if (n.level !== floor) continue;
       const marker = L.marker([n.lat, n.lng], {
         icon: iconFor(n.icon, highlight.has(n.id)),
@@ -109,7 +137,7 @@ export function MapView({ meta, floor, nodes, areas, highlight, focus, rarity }:
       marker.addTo(markerLayer.current!);
       markerById.current.set(n.id, marker);
     }
-  }, [meta, floor, nodes, highlight, rarity]);
+  }, [meta, floor, nodes, highlight, rarity, ghost]);
 
   useEffect(() => {
     areaLayer.current!.clearLayers();

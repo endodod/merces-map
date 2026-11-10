@@ -1,0 +1,94 @@
+{
+ "howItWorks": {
+  "text": "After enough contracts, the last destination of each Syndicate becomes a Showdown where the Leader hides among decoy suspects (Normal: 4/6/6/9 suspects for showdowns 1-4; Hardcore: 9/9/12/12). Suspects are purple in Instinct and show a pictogram above them when performing a behavior (tell). A leader profile consists of 1 Agenda, 2 Tells and 4 Looks. Only one suspect is a permissible target; killing a non-leader is not the end, but if the true leader escapes (e.g. after alert) the campaign fails.",
+  "sources": [
+   "https://hitman.fandom.com/wiki/Syndicates",
+   "https://hitman.fandom.com/wiki/Freelancer",
+   "https://gameplay.tips/guides/hitman-3-freelancer-mode-guide.html"
+  ]
+ },
+ "categories": [
+  {
+   "name": "Agenda",
+   "values": [
+    "Business Meeting",
+    "Handover Meeting",
+    "Secret Meeting"
+   ],
+   "sources": [
+    "https://hitman.fandom.com/wiki/Syndicates"
+   ],
+   "note": "Wiki: Business = blue burner phones, Handover = green, Secret = red"
+  },
+  {
+   "name": "Hair",
+   "values": [
+    "Black Hair",
+    "Blonde Hair",
+    "Brown Hair",
+    "Grey Hair",
+    "Red Hair",
+    "No Hair"
+   ],
+   "sources": [
+    "https://hitman.fandom.com/wiki/Syndicates"
+   ],
+   "note": "No Hair = bald or very short/shaved"
+  },
+  {
+   "name": "Accessories",
+   "values": [
+    "Earrings",
+    "Glasses",
+    "Hat",
+    "Necklace",
+    "Tattoo"
+   ],
+   "sources": [
+    "https://hitman.fandom.com/wiki/Syndicates"
+   ]
+  },
+  {
+   "name": "Personality (Tells)",
+   "values": [
+    "Allergic",
+    "Dehydrated",
+    "Foodie",
+    "Nervous",
+    "Reader",
+    "Smoker",
+    "Sweet Tooth"
+   ],
+   "sources": [
+    "https://hitman.fandom.com/wiki/Syndicates"
+   ],
+   "note": "Allergic=sneezes; Dehydrated=drinks; Foodie=eats food set out on map; Nervous=looks around; Reader=reads; Smoker=cigarette breaks; Sweet Tooth=eats carried candy"
+  }
+ ],
+ "tips": [
+  {
+   "text": "Tattoos, earrings and necklaces can be small: check hands, necks, back of forearms, and look from several angles.",
+   "sources": [
+    "https://hitman.fandom.com/wiki/Syndicates"
+   ]
+  },
+  {
+   "text": "Agenda can be checked via burner phone colour: blue=Business, green=Handover, red=Secret.",
+   "sources": [
+    "https://hitman.fandom.com/wiki/Syndicates"
+   ]
+  },
+  {
+   "text": "The old music cue near the leader was removed in the May 2023 patch.",
+   "sources": [
+    "https://hitman.fandom.com/wiki/Syndicates"
+   ]
+  },
+  {
+   "text": "Avoid alerting: if the true leader flees the campaign fails; Lookouts (white outline, 'Lookout Nearby') and Assassins escorting suspects are the main risks.",
+   "sources": [
+    "https://hitman.fandom.com/wiki/Syndicates"
+   ]
+  }
+ ]
+}
