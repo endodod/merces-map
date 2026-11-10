@@ -2,16 +2,18 @@ import { useMemo, useState } from 'react';
 import { RarityBadge } from './Briefing';
 import { RARITY_ORDER, nameKey } from './data';
 import { useStored } from './store';
-import type { CollectionData, ItemIndexEntry, MapMeta } from './types';
+import type { CollectionData, ItemIndexEntry, MapMeta, NpcWeapon } from './types';
 
 interface Props {
   data: CollectionData;
   items: ItemIndexEntry[];
   maps: MapMeta[];
   onFind: (name: string, mapId: string) => void;
+  npcWeapons: Record<string, NpcWeapon[]>;
+  onOpenMap: (mapId: string) => void;
 }
 
-export function Collection({ data, items, maps, onFind }: Props) {
+export function Collection({ data, items, maps, onFind, npcWeapons, onOpenMap }: Props) {
   const [owned, setOwned] = useStored<Record<string, boolean>>('mm.collection', {});
   const [show, setShow] = useState<'all' | 'missing' | 'owned'>('all');
   const [rarity, setRarity] = useState('');
@@ -19,6 +21,16 @@ export function Collection({ data, items, maps, onFind }: Props) {
   const [query, setQuery] = useState('');
 
   const byKey = useMemo(() => new Map(items.map((i) => [nameKey(i.name), i])), [items]);
+  // weapon name key -> maps where an NPC carries it
+  const dropped = useMemo(() => {
+    const m = new Map<string, string[]>();
+    for (const [mapId, list] of Object.entries(npcWeapons))
+      for (const w of list) {
+        const k = nameKey(w.weapon);
+        if (!m.get(k)?.includes(mapId)) m.set(k, [...(m.get(k) ?? []), mapId]);
+      }
+    return m;
+  }, [npcWeapons]);
   const mapName = (id: string) => maps.find((m) => m.id === id)?.destination ?? id;
   const total = data.groups.reduce((s, g) => s + g.items.length, 0);
   const done = data.groups.reduce((s, g) => s + g.items.filter((i) => owned[i.name]).length, 0);
@@ -41,7 +53,7 @@ export function Collection({ data, items, maps, onFind }: Props) {
         </select>
       </div>
       <label className="toggle-inline small">
-        <input type="checkbox" checked={onMapsOnly} onChange={(e) => setOnMapsOnly(e.target.checked)} /> Only items lying on a map
+        <input type="checkbox" checked={onMapsOnly} onChange={(e) => setOnMapsOnly(e.target.checked)} /> Only items obtainable on a map
       </label>
 
       {data.groups.map((g) => {
@@ -49,7 +61,7 @@ export function Collection({ data, items, maps, onFind }: Props) {
           (show === 'all' || (show === 'owned') === !!owned[i.name]) &&
           (!rarity || i.rarity === rarity) &&
           i.name.toLowerCase().includes(query.trim().toLowerCase()) &&
-          (!onMapsOnly || byKey.has(nameKey(i.name))));
+          (!onMapsOnly || byKey.has(nameKey(i.name)) || dropped.has(nameKey(i.name))));
         if (!list.length) return null;
         return (
           <div key={g.name} className="col-group">
@@ -57,6 +69,7 @@ export function Collection({ data, items, maps, onFind }: Props) {
             <ul>
               {list.map((i) => {
                 const found = byKey.get(nameKey(i.name));
+                const droppedOn = dropped.get(nameKey(i.name));
                 return (
                   <li key={i.name}>
                     <label>
@@ -69,6 +82,14 @@ export function Collection({ data, items, maps, onFind }: Props) {
                         On map:{' '}
                         {Object.keys(found.maps).map((id) => (
                           <button key={id} className="link small" onClick={() => onFind(found.name, id)}>{mapName(id)}</button>
+                        ))}
+                      </div>
+                    )}
+                    {droppedOn && (
+                      <div className="found-on small">
+                        Dropped by NPCs:{' '}
+                        {droppedOn.map((id) => (
+                          <button key={id} className="link small" onClick={() => onOpenMap(id)}>{mapName(id)}</button>
                         ))}
                       </div>
                     )}

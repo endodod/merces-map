@@ -187,6 +187,13 @@ export default function App() {
     setMapId(id);
   };
 
+  const openMap = (id: string) => {
+    setTab('map');
+    if (id === meta?.id) return;
+    pending.current = { floor: null, disguise: null, item: null };
+    setMapId(id);
+  };
+
   const selectDisguiseByName = (name: string) => {
     const d = data?.disguises.find((x) => x.name === name);
     if (d) {
@@ -230,7 +237,7 @@ export default function App() {
           </nav>
         </header>
 
-        {tab === 'collection' && <Collection data={index.collection} items={index.items} maps={index.maps} onFind={findItem} />}
+        {tab === 'collection' && <Collection data={index.collection} items={index.items} maps={index.maps} onFind={findItem} npcWeapons={index.npcWeapons} onOpenMap={openMap} />}
 
         {tab === 'map' && (
           <>

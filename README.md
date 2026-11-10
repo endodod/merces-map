@@ -26,7 +26,7 @@ An unofficial, non-commercial fan project, not affiliated with IO Interactive or
 - All source links are collected in the site's *About & sources* dialog
 - **Item search** across all maps ("where is a Katana?"), jumping straight to it
 - **Collection** tab: checklist of every Freelancer rarity-tier weapon and tool for the Safehouse display,
-  with search, filters and links to the maps where an item lies around
+  with search, filters, and links to the maps where an item lies around or is dropped by NPCs
 - **Shareable links**: the URL keeps map, floor, variant and selected disguise (`#paris/2/alerted/787`)
 - **Offline mode**: "Save all maps for offline use" caches everything in the browser
 - Checklists and settings are stored only in your browser (localStorage); there is no server or account
