@@ -1,0 +1,2184 @@
+{
+ "paris": {
+  "Auction Staff": {
+   "wornBy": "Waiting staff at the IAGO auction on the upper floors of the palace.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Auction_Staff_(outfit)"
+   ]
+  },
+  "Chef": {
+   "wornBy": "Chefs in the palace kitchen area.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Chef_(outfit)"
+   ]
+  },
+  "CICADA Bodyguard": {
+   "wornBy": "CICADA bodyguards at the palace; their command post is in the attic storage area.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/CICADA_Bodyguard_(outfit)"
+   ]
+  },
+  "Helmut Kruger": {
+   "wornBy": "Helmut Kruger, the German supermodel (unique disguise).",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Helmut_Kruger_(outfit)"
+   ]
+  },
+  "Palace Staff": {
+   "wornBy": "Waiting staff at the Sanguine fashion show.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Palace_Staff_(outfit)"
+   ]
+  },
+  "Security Guard": {
+   "wornBy": "Security guards at the palace (indoor and outdoor uniforms).",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Security_Guard_(outfit)"
+   ]
+  },
+  "Sheikh Salman Al-Ghazali": {
+   "wornBy": "Sheikh Salman Al-Ghazali, an auction guest, who starts in a private first-floor room.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Sheikh_Salman_Al-Ghazali_(outfit)"
+   ]
+  },
+  "Stylist": {
+   "wornBy": "Stylists working backstage at the fashion show.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Stylist_(outfit)"
+   ]
+  },
+  "Tech Crew": {
+   "wornBy": "Tech crew maintaining the lighting and sound equipment.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Tech_Crew_(outfit)"
+   ]
+  },
+  "Vampire Magician": {
+   "wornBy": "Worn by nobody; a unique disguise.",
+   "howToGet": "Found in the attic of the palace.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Vampire_Magician_(outfit)"
+   ]
+  }
+ },
+ "sapienza": {
+  "Biolab Security": {
+   "wornBy": "CICADA mercenaries guarding the Ether laboratory.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Biolab_Security_(outfit)"
+   ]
+  },
+  "Bodyguard": {
+   "wornBy": "Bodyguards around Sapienza and the villa.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Bodyguard_(outfit)"
+   ]
+  },
+  "Bohemian": {
+   "wornBy": "The Bohemian who lives on an upper floor of the town hall.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Bohemian_(outfit)"
+   ]
+  },
+  "Butler": {
+   "wornBy": "Terenzio Endrizzi, the butler of Villa Caruso.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Butler_(outfit)"
+   ]
+  },
+  "Church Staff": {
+   "wornBy": "Employees of the church.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Church_Staff_(outfit)"
+   ]
+  },
+  "Cyclist": {
+   "wornBy": "Orlando Zito, the injured cyclist outside the town entrance.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Cyclist_(outfit)"
+   ]
+  },
+  "Delivery Man": {
+   "wornBy": "Couriers at the van just outside Sapienza.",
+   "howToGet": "A spare disguise can also spawn on the ground inside the flower shop on the main street.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Delivery_Man_(outfit)"
+   ]
+  },
+  "Dr. Oscar Lafayette": {
+   "wornBy": "Dr. Oscar Lafayette.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Dr._Oscar_Lafayette_(outfit)"
+   ]
+  },
+  "Green Plumber": {
+   "wornBy": "Unique disguise (a Super Mario reference).",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Green_Plumber_(outfit)"
+   ]
+  },
+  "Hazmat Suit": {
+   "wornBy": "Ether field lab virologists.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Hazmat_Suit_(outfit)"
+   ]
+  },
+  "Housekeeper": {
+   "wornBy": "Cleaning staff of Villa Caruso.",
+   "howToGet": "Dropped disguises lie in the villa basement washroom and in the room under the attic.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Housekeeper_(outfit)"
+   ]
+  },
+  "Kitchen Assistant": {
+   "wornBy": "Kitchen staff of the villa.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Kitchen_Assistant_(outfit)"
+   ]
+  },
+  "Lab Technician": {
+   "wornBy": "Ether field lab technicians.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Lab_Technician_(outfit)"
+   ]
+  },
+  "Mansion Chef": {
+   "wornBy": "Marcello Ray, Silvio Caruso's head chef; a second set is worn by a chef in the ice cream shop.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Mansion_Chef_(outfit)"
+   ]
+  },
+  "Mansion Security": {
+   "wornBy": "Villa Caruso security guards.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Mansion_Security_(outfit)"
+   ]
+  },
+  "Mansion Staff": {
+   "wornBy": "Staff of Villa Caruso.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Mansion_Staff_(outfit)"
+   ]
+  },
+  "Plague Doctor": {
+   "wornBy": "Worn by nobody; a costume on display.",
+   "howToGet": "Found on a display rack in the observatory of Villa Caruso.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Plague_Doctor_(outfit)"
+   ]
+  },
+  "Priest": {
+   "wornBy": "The priest in the church.",
+   "howToGet": "A second priest outfit can be found in the church basement.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Priest_(outfit)"
+   ]
+  },
+  "Private Detective": {
+   "wornBy": "Sal Falcone.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Private_Detective_(outfit)"
+   ]
+  },
+  "Red Plumber": {
+   "wornBy": "Unique disguise (a Super Mario reference).",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Red_Plumber_(outfit)"
+   ]
+  },
+  "Roberto Vargas": {
+   "wornBy": "Roberto Vargas.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Roberto_Vargas_(outfit)"
+   ]
+  },
+  "Store Clerk": {
+   "wornBy": "The Sanguine hairstylist.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Store_Clerk_(outfit)"
+   ]
+  },
+  "Street Performer": {
+   "wornBy": "Umberto Megazzini, the performer near the beach.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Street_Performer_(outfit)"
+   ]
+  },
+  "Waiter": {
+   "wornBy": "Waiters of the ice cream shop.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Waiter_(outfit)"
+   ]
+  }
+ },
+ "marrakesh": {
+  "Bodyguard": {
+   "wornBy": "Guard at the entrance to the private interior of the shisha cafe.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Bodyguard_(outfit)"
+   ]
+  },
+  "Cameraman": {
+   "wornBy": "Jeff Baker, the cameraman inside the shisha cafe.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Cameraman_(outfit)"
+   ]
+  },
+  "Consulate Intern": {
+   "wornBy": "The intern who walks the market and later enters the Swedish Consulate.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Consulate_Intern_(outfit)"
+   ]
+  },
+  "Consulate Janitor": {
+   "wornBy": "Janitors inside the consulate.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Consulate_Janitor_(outfit)"
+   ]
+  },
+  "Consulate Security": {
+   "wornBy": "Security guards inside the consulate.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Consulate_Security_(outfit)"
+   ]
+  },
+  "Elite Soldier": {
+   "wornBy": "Members of Reza Zaydan's unit.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Elite_Soldier_(outfit)"
+   ]
+  },
+  "Food Vendor": {
+   "wornBy": "Food vendors in the bazaar.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Food_Vendor_(outfit)"
+   ]
+  },
+  "Fortune Teller": {
+   "wornBy": "The beggar between Lamp Street and Electronics Street.",
+   "howToGet": "Put 5 coins on his plate so he goes to eat, then take his clothes.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Fortune_Teller_(outfit)"
+   ]
+  },
+  "Handyman": {
+   "wornBy": "Handymen in the Marrakesh market.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Handyman_(outfit)"
+   ]
+  },
+  "Headmaster": {
+   "wornBy": "The headmaster on the roof of the shop next to the school.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Headmaster_(outfit)"
+   ]
+  },
+  "Local Printing Crew": {
+   "wornBy": "Members of the printing crew near the school.",
+   "howToGet": "Sabotage an exposed wire with a screwdriver, then meet the crew so one walks into the trap.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Local_Printing_Crew_(outfit)"
+   ]
+  },
+  "Masseur": {
+   "wornBy": "Konny Engstrom, the massage specialist inside the embassy.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Masseur_(outfit)"
+   ]
+  },
+  "Military Officer": {
+   "wornBy": "Reza Zaydan's officers.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Military_Officer_(outfit)"
+   ]
+  },
+  "Military Soldier": {
+   "wornBy": "Soldiers patrolling the market and public areas.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Military_Soldier_(outfit)"
+   ]
+  },
+  "Prisoner": {
+   "wornBy": "The prisoner inside the school.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Prisoner_(outfit)"
+   ]
+  },
+  "Shopkeeper": {
+   "wornBy": "Vendors at the Marrakesh market.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Shopkeeper_(outfit)"
+   ]
+  },
+  "Waiter": {
+   "wornBy": "Employees of the shisha cafe.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Waiter_(outfit)"
+   ]
+  }
+ },
+ "bangkok": {
+  "Abel de Silva": {
+   "wornBy": "Abel de Silva.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Abel_de_Silva_(outfit)"
+   ]
+  },
+  "Exterminator": {
+   "wornBy": "Exterminators from Bug SWAT.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Exterminator_(outfit)"
+   ]
+  },
+  "Groundskeeper": {
+   "wornBy": "Groundskeepers of the Himmapan Hotel, in the garden and basement.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Groundskeeper_(outfit)"
+   ]
+  },
+  "Hotel Security": {
+   "wornBy": "Security guards of the Himmapan Hotel.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Hotel_Security_(outfit)"
+   ]
+  },
+  "Hotel Staff": {
+   "wornBy": "Staff of the Himmapan Hotel.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Hotel_Staff_(outfit)"
+   ]
+  },
+  "Jordan Cross' Bodyguard": {
+   "wornBy": "Bodyguards hired to protect Jordan Cross.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Jordan_Cross'_Bodyguard_(outfit)"
+   ]
+  },
+  "Kitchen Staff": {
+   "wornBy": "Chefs of the Himmapan Hotel.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Kitchen_Staff_(outfit)"
+   ]
+  },
+  "Morgan's Bodyguard": {
+   "wornBy": "Otis Kaplan.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Morgan's_Bodyguard_(outfit)"
+   ]
+  },
+  "Recording Crew": {
+   "wornBy": "Crew members of The Class.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Recording_Crew_(outfit)"
+   ]
+  },
+  "Stalker": {
+   "wornBy": "Benjamin Bertram.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Stalker_(outfit)"
+   ]
+  },
+  "Waiter": {
+   "wornBy": "Waiters of the Himmapan Hotel.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Waiter_(outfit)"
+   ]
+  }
+ },
+ "colorado": {
+  "Explosives Specialist": {
+   "wornBy": "Militia members handling explosives.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Explosives_Specialist_(outfit)"
+   ]
+  },
+  "Hacker": {
+   "wornBy": "Hackers working for the Shadow Client.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Hacker_(outfit)"
+   ]
+  },
+  "Militia Cook": {
+   "wornBy": "Robert Powell, the militia cook.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Militia_Cook_(outfit)"
+   ]
+  },
+  "Militia Elite": {
+   "wornBy": "Militia members guarding the farmhouse.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Militia_Elite_(outfit)"
+   ]
+  },
+  "Militia Soldier": {
+   "wornBy": "Low-ranking members of the militia.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Militia_Soldier_(outfit)"
+   ]
+  },
+  "Militia Spec Ops": {
+   "wornBy": "Strike teams supervised by Maya Parvati.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Militia_Spec_Ops_(outfit)"
+   ]
+  },
+  "Militia Technician": {
+   "wornBy": "Mechanics of the militia.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Militia_Technician_(outfit)"
+   ]
+  },
+  "Point Man": {
+   "wornBy": "Lloyd Burgess, leader of the strike team.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Point_Man_(outfit)"
+   ]
+  },
+  "Scarecrow": {
+   "wornBy": "Worn by nobody; a scarecrow.",
+   "howToGet": "Hung up on the west side of the North Orchard.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Scarecrow_(outfit)"
+   ]
+  }
+ },
+ "hokkaido": {
+  "Baseball Player": {
+   "wornBy": "No NPC; found item.",
+   "howToGet": "Found in the director's office on level 3.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Bodyguard": {
+   "wornBy": "Bodyguards near the cable cart.",
+   "howToGet": "Separate the two bodyguards near the cable cart and subdue one.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Chef": {
+   "wornBy": "Kitchen chefs.",
+   "howToGet": "Take one in the kitchen or lure one by sabotaging the fuse box near the restaurant.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Chief Surgeon": {
+   "wornBy": "The single chief surgeon.",
+   "howToGet": "Meet him disguised as the pilot and lead him to the pills stash.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Doctor": {
+   "wornBy": "Hospital doctors.",
+   "howToGet": "Lure or subdue one of two doctors near Amos Dexter's apartment, or poison a meal.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Handyman": {
+   "wornBy": "Handymen and the garage snow scooter mechanic.",
+   "howToGet": "Subdue the mechanic in the garage or a handyman behind the hospital.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Helicopter Pilot": {
+   "wornBy": "The helicopter pilot.",
+   "howToGet": "Subdue him at the pills stash or on his way there.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Hospital Director": {
+   "wornBy": "The hospital director.",
+   "howToGet": "Poison his meal in the restaurant, then subdue him in the toilet.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Morgue Doctor": {
+   "wornBy": "The morgue doctor.",
+   "howToGet": "Lure one in the morgue by the fridges or exam table.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Motorcyclist": {
+   "wornBy": "Dead motorcyclist in the morgue.",
+   "howToGet": "Take the outfit from the dead motorcyclist in the morgue.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Ninja": {
+   "wornBy": "No NPC; unlockable.",
+   "howToGet": "Unlocked at a Mastery Level by starting on the mountain path.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Patient": {
+   "wornBy": "Regular patients.",
+   "howToGet": "Bathroom in 47's apartment, or subdue a patient in the level 1 toilet.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Resort Security": {
+   "wornBy": "Resort security guards.",
+   "howToGet": "Lure a guard at 47's door, poison a kitchen meal, or take the sleeping guard at the pills stash.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Resort Staff": {
+   "wornBy": "Resort staff.",
+   "howToGet": "Staff room near 47's apartment, or subdue a worker near the garage.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Surgeon": {
+   "wornBy": "Surgeons in the main building.",
+   "howToGet": "Subdue one in the rehab room.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "VIP Patient": {
+   "wornBy": "Tobias Rieper, the starting VIP patient outfit.",
+   "howToGet": "Starting outfit.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "VIP Patient (Amos Dexter)": {
+   "wornBy": "Amos Dexter, VIP patient.",
+   "howToGet": "Subdue him in his apartment next to 47's.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "VIP Patient (Jason Portman)": {
+   "wornBy": "Jason Portman, VIP patient.",
+   "howToGet": "Subdue him in the level 1 bathroom after removing the other patient.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  },
+  "Yoga Instructor": {
+   "wornBy": "Yoga instructor around the spa.",
+   "howToGet": "Subdue her in the garage or the room by the sauna.",
+   "freelancerNote": null,
+   "sources": [
+    "https://www.gamepressure.com/hitman/disguises/za95ff"
+   ]
+  }
+ },
+ "miami": {
+  "Aeon Driver": {
+   "wornBy": "Brett Lampini, the Aeon driver in the VIP lounge.",
+   "howToGet": "Poison Lampini's wine while disguised as a waiter, then subdue him in the toilet he walks to.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Aeon_Driver_%28outfit%29"
+   ]
+  },
+  "Aeon Mechanic": {
+   "wornBy": "Aeon mechanics in the Aeon Garage.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Aeon_Mechanic_%28outfit%29"
+   ]
+  },
+  "Blue Seed Driver": {
+   "wornBy": "Trevor Jones, the Blue Seed driver, at the autograph booth near the main entrance.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Blue_Seed_Driver_%28outfit%29"
+   ]
+  },
+  "Crashed Kronstadt Driver": {
+   "wornBy": "Thierry Durand, the crashed Kronstadt driver in the Emergency Bay.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Crashed_Driver_Kronstadt_%28outfit%29"
+   ]
+  },
+  "Event Crew": {
+   "wornBy": "Regular staff of the Global Innovation Race.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Event_Crew_%28Outfit%29"
+   ]
+  },
+  "Event Security": {
+   "wornBy": "Event security guards across the whole map.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Event_Security_%28outfit%29"
+   ]
+  },
+  "Florida Fit": {
+   "wornBy": "Agent 47's starting suit.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Florida_Fit"
+   ]
+  },
+  "Florida Man": {
+   "wornBy": "Velmorres, who roams the marina park.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Florida_Man_%28outfit%29"
+   ]
+  },
+  "Food Vendor": {
+   "wornBy": "Food vendors.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Food_Vendor_%28outfit%29"
+   ]
+  },
+  "Journalist": {
+   "wornBy": "Journalists, mostly in the VIP lounge.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Journalist_%28outfit%29"
+   ]
+  },
+  "Kitchen Staff": {
+   "wornBy": "Kitchen staff (chefs).",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Kitchen_Staff_%28outfit%29"
+   ]
+  },
+  "Kowoon Driver": {
+   "wornBy": "Henry Ling, the Kowoon driver in the VIP lounge.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Kowoon_Driver_%28outfit%29"
+   ]
+  },
+  "Kowoon Mechanic": {
+   "wornBy": "Kowoon mechanics in the Kowoon Garage.",
+   "howToGet": "A spare outfit is in the locker room beneath the garage.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Kowoon_Mechanic_%28outfit%29"
+   ]
+  },
+  "Kronstadt Engineer": {
+   "wornBy": "Kronstadt engineers inside the bayside expo center.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Kronstadt_Engineer_%28outfit%29"
+   ]
+  },
+  "Kronstadt Mechanic": {
+   "wornBy": "Kronstadt mechanics, mainly in the Kronstadt Garage.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Kronstadt_Mechanic_%28outfit%29"
+   ]
+  },
+  "Kronstadt Researcher": {
+   "wornBy": "Researchers on the top two floors of the bayside center.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Kronstadt_Researcher_%28outfit%29"
+   ]
+  },
+  "Kronstadt Security": {
+   "wornBy": "Kronstadt guards in the Bayside Center and Kronstadt Paddock.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Kronstadt_Security_%28outfit%29"
+   ]
+  },
+  "Mascot": {
+   "wornBy": "Mascots roaming the public areas of the event.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Mascot_%28outfit%29"
+   ]
+  },
+  "Medic": {
+   "wornBy": "Medics, mainly at the Emergency Bay.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Medic_%28outfit%29"
+   ]
+  },
+  "Moses Lee": {
+   "wornBy": "Moses Lee, the Kowoon race driver.",
+   "howToGet": "Only obtainable after the race has ended.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Moses_Lee_%28outfit%29"
+   ]
+  },
+  "Pale Rider": {
+   "wornBy": null,
+   "howToGet": "Found in the locker room below the garages.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Pale_Rider_%28outfit%29"
+   ]
+  },
+  "Race Coordinator": {
+   "wornBy": "Race coordinators at the race.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Race_Coordinator_%28outfit%29"
+   ]
+  },
+  "Race Marshal": {
+   "wornBy": "Race marshals at the race.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Race_Marshal_%28outfit%29"
+   ]
+  },
+  "Sheik": {
+   "wornBy": "Sheikh Salman al-Ghazali.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Sheikh_Salman_al-Ghazali_%28outfit%29"
+   ]
+  },
+  "Sotteraneo Mechanic": {
+   "wornBy": "Sotteraneo mechanics in the Sotteraneo Garage.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Sotteraneo_Mechanic_%28outfit%29"
+   ]
+  },
+  "Street Musician": {
+   "wornBy": "The street musician in the Bayside Tunnel, left of the Main Event start.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Street_Musician_%28outfit%29"
+   ]
+  },
+  "Ted Mendez": {
+   "wornBy": "Ted Mendez, found next to the dolphin statues outside the bayside expo center.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Ted_Mendez_%28outfit%29"
+   ]
+  },
+  "Thwack Driver": {
+   "wornBy": "Edwin Schmitz, the Thwack driver, giving an interview at the stairs to the VIP lounge.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Thwack_Driver_%28outfit%29"
+   ]
+  },
+  "Thwack Mechanic": {
+   "wornBy": "Thwack mechanics in or around the Thwack Garage.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Thwack_Mechanic_%28outfit%29"
+   ]
+  }
+ },
+ "santa-fortuna": {
+  "Band Member": {
+   "wornBy": "The band's late drummer; the other band members do not enforce it.",
+   "howToGet": "Grants access to the drummer's apartment and the stages at the town square.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Drummer_%28outfit%29"
+   ]
+  },
+  "Barman": {
+   "wornBy": "The barkeeper of the local bar.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Barman_%28outfit%29"
+   ]
+  },
+  "Casual Tourist": {
+   "wornBy": "Agent 47's starting suit.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Casual_Tourist"
+   ]
+  },
+  "Chef": {
+   "wornBy": "Chefs.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Chef_%28outfit%29"
+   ]
+  },
+  "Coca Field Guard": {
+   "wornBy": "Cartel members guarding the coca plantation.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Coca_Field_Guard_%28outfit%29"
+   ]
+  },
+  "Coca Field Worker": {
+   "wornBy": "Townspeople working in the coca fields.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Coca_Field_Worker_%28outfit%29"
+   ]
+  },
+  "Construction Worker": {
+   "wornBy": "Construction workers at the town and power plant sites.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Construction_Worker_%28outfit%29"
+   ]
+  },
+  "Drug Lab Worker": {
+   "wornBy": "Townspeople working in the botany lab and production shed.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Drug_Lab_Worker_%28outfit%29"
+   ]
+  },
+  "Elite Guard": {
+   "wornBy": "High-ranking Delgado cartel guards in the tunnels and submarine.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Elite_Guard_%28outfit%29"
+   ]
+  },
+  "Hippie": {
+   "wornBy": "Torres Piombo, one of Jorge Franco's drug couriers.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Hippie_%28outfit%29"
+   ]
+  },
+  "Hippo Whisperer": {
+   "wornBy": "Dan Buckman, a hippo whisperer hired by Rico Delgado.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Hippo_Whisperer_%28outfit%29"
+   ]
+  },
+  "Mansion Guard": {
+   "wornBy": "Cartel members guarding the Delgado mansion.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Mansion_Guard_%28outfit%29"
+   ]
+  },
+  "Mansion Staff": {
+   "wornBy": "Staff of Rico Delgado's mansion.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Mansion_Staff_%28outfit%29"
+   ]
+  },
+  "Shaman": {
+   "wornBy": "The local shaman.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Shaman_%28outfit%29"
+   ]
+  },
+  "Street Soldier": {
+   "wornBy": "Delgado cartel members guarding Santa Fortuna and Andrea Martinez's office.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Street_Soldier_%28outfit%29"
+   ]
+  },
+  "Submarine Crew": {
+   "wornBy": "Workers in the underground tunnels.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Submarine_Crew_%28outfit%29"
+   ]
+  },
+  "Submarine Engineer": {
+   "wornBy": "Previously Mateo Luna Covarrubias, the injured chief engineer.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Submarine_Engineer_%28outfit%29"
+   ]
+  },
+  "Tattoo Artist (P-Power)": {
+   "wornBy": "P-Power, the celebrity tattoo artist.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Tattooist_%28outfit%29"
+   ]
+  }
+ },
+ "mumbai": {
+  "Barber": {
+   "wornBy": "Bhavin Sagar, a local barber.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Barber_%28outfit%29"
+   ]
+  },
+  "Bollywood Bodyguard": {
+   "wornBy": "Dawood Rangan's personal bodyguards.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Bollywood_Bodyguard_%28outfit%29"
+   ]
+  },
+  "Bollywood Crew": {
+   "wornBy": "Film crew at the movie set.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Bollywood_Crew_%28outfit%29"
+   ]
+  },
+  "Dancer": {
+   "wornBy": "The dancer at the movie set.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Dancer_%28outfit%29"
+   ]
+  },
+  "Elite Thug": {
+   "wornBy": "High-ranking members of the Crows gang.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Elite_Thug_%28outfit%29"
+   ]
+  },
+  "Food Vendor": {
+   "wornBy": "Food vendors in the slums.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Food_Vendor_%28outfit%29"
+   ]
+  },
+  "Holy Man": {
+   "wornBy": "The Holy Man walking around the slums.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Holy_Man_%28outfit%29"
+   ]
+  },
+  "Imperial Classic": {
+   "wornBy": "Agent 47's starting suit.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Imperial_Classic"
+   ]
+  },
+  "Kashmirian": {
+   "wornBy": "Kharan Dhar, the Kashmirian assassin.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Kashmirian_%28outfit%29"
+   ]
+  },
+  "Laundry Foreman": {
+   "wornBy": "The foreman of the laundry in the slums.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Laundry_Foreman_%28outfit%29"
+   ]
+  },
+  "Laundry Worker": {
+   "wornBy": "Laundry workers in the slums.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Laundry_Worker_%28outfit%29"
+   ]
+  },
+  "Lead Actor": {
+   "wornBy": "Gregory Arthur, lead of Mumbai Hero.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Lead_Actor_%28outfit%29"
+   ]
+  },
+  "Local Security": {
+   "wornBy": "Guards at the Rangan Tower movie set.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Local_Security_%28outfit%29"
+   ]
+  },
+  "Metal Worker": {
+   "wornBy": "Metal workers in the slums.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Metal_Worker_%28outfit%29"
+   ]
+  },
+  "Painter": {
+   "wornBy": "Soham Hussain, the painter hired by Dawood Rangan.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Painter_%28outfit%29"
+   ]
+  },
+  "Queen's Bodyguard": {
+   "wornBy": "Vanya Shah's personal guard.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Queen%27s_Bodyguard_%28outfit%29"
+   ]
+  },
+  "Queen's Guard": {
+   "wornBy": "Vanya Shah's armed guards.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Queen%27s_Guard_%28outfit%29"
+   ]
+  },
+  "Tailor": {
+   "wornBy": "Bharath Chilamkurthy, a local tailor.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Tailor_%28outfit%29"
+   ]
+  },
+  "Thug": {
+   "wornBy": "Low-ranking members of the Crows gang.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Thug_%28outfit%29"
+   ]
+  },
+  "Vanya's Servant": {
+   "wornBy": "Vanya Shah's servants.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Vanya%27s_Servant_%28outfit%29"
+   ]
+  }
+ },
+ "whittleton-creek": {
+  "Arkian Robes": {
+   "wornBy": "Displayed on a mannequin in Helen West's bedroom.",
+   "howToGet": "Take it from the mannequin on the upper floor of the West residence.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Arkian_Robe_(outfit)"
+   ]
+  },
+  "BBQ Owner": {
+   "wornBy": "Richard Wilson, host of the BBQ party.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/BBQ_Owner_(outfit)"
+   ]
+  },
+  "Cassidy Bodyguard": {
+   "wornBy": "Men under Nolan Cassidy's command.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Cassidy_Bodyguard_(outfit)"
+   ]
+  },
+  "Construction Worker": {
+   "wornBy": "Construction workers at the site.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Construction_Worker_(outfit)"
+   ]
+  },
+  "Exterminator": {
+   "wornBy": "The exterminator working in the neighborhood.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Exterminator_(outfit)"
+   ]
+  },
+  "Garbage Man": {
+   "wornBy": "The garbage men of Whittleton Creek.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Garbage_Man_(outfit)"
+   ]
+  },
+  "Gardener": {
+   "wornBy": "Gardeners working around Whittleton Creek.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Gardener_(outfit)"
+   ]
+  },
+  "Gunther Mueller": {
+   "wornBy": "Gunther Mueller, Janus' personal bodyguard.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Gunther_Mueller_(outfit)"
+   ]
+  },
+  "James Batty": {
+   "wornBy": "James Batty, the local eco-activist.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/James_Batty_(outfit)"
+   ]
+  },
+  "Janus' Bodyguard": {
+   "wornBy": "Bodyguards guarding Janus.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Janus'_Bodyguard_(outfit)"
+   ]
+  },
+  "Mailman": {
+   "wornBy": "Dale Anderson, the mailman.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Mailman_(outfit)"
+   ]
+  },
+  "Nurse": {
+   "wornBy": "Nelson Lafayette, Janus' nurse.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Nurse_(outfit)"
+   ]
+  },
+  "Plumber": {
+   "wornBy": "Dewitt Grammer, a local plumber.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Plumber_(outfit)"
+   ]
+  },
+  "Police Deputy": {
+   "wornBy": "Members of the Sheriff's department.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Police_Deputy_(outfit)"
+   ]
+  },
+  "Politician": {
+   "wornBy": "Charles Blake III, leader of the homeowner council.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Politician_(outfit)"
+   ]
+  },
+  "Politician's Assistant": {
+   "wornBy": "Aiden Kelly, aide of Charles Blake III.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Politician's_Assistant_(outfit)"
+   ]
+  },
+  "Real Estate Broker": {
+   "wornBy": "Samir Chandra, the local real estate broker.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Real_Estate_Broker_(outfit)"
+   ]
+  },
+  "Server": {
+   "wornBy": "Employees of Helen West's Muffin Kitchen.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Server_(outfit)"
+   ]
+  },
+  "Sheriff Masterson": {
+   "wornBy": "Sheriff Grant Masterson.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Sheriff_Masterson_(outfit)"
+   ]
+  },
+  "Spencer \"The Hammer\" Green": {
+   "wornBy": "Spencer Green, one of Nolan Cassidy's agents.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Spencer_\"The_Hammer\"_Green_(outfit)"
+   ]
+  }
+ },
+ "ambrose-island": {
+  "Cook": {
+   "wornBy": "Farah's cooks.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Cook_(outfit)"
+   ]
+  },
+  "Engineer": {
+   "wornBy": "Engineers working around Ambrose Island.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Engineer_(outfit)"
+   ]
+  },
+  "Guerilla Wetsuit": {
+   "wornBy": null,
+   "howToGet": "Default starting suit for Shadows in the Water.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Guerilla_Wetsuit"
+   ]
+  },
+  "Metal Worker": {
+   "wornBy": "Metal workers around Ambrose Island.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Metal_Worker_(outfit)"
+   ]
+  },
+  "Militia Soldier": {
+   "wornBy": "Militia soldiers at the militia camp.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Militia_Soldier_(outfit)"
+   ]
+  },
+  "Pirate": {
+   "wornBy": "Members of Akka's pirate crew.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Pirate_(outfit)"
+   ]
+  }
+ },
+ "isle-of-sgail": {
+  "Architect": {
+   "wornBy": "Upper echelons of the Ark Society.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Architect_(outfit)"
+   ]
+  },
+  "Ark Member": {
+   "wornBy": "Regular members of the Ark Society.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Ark_Member_(outfit)"
+   ]
+  },
+  "Blake Nathaniel": {
+   "wornBy": "Blake Nathaniel, a famous treasure hunter.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Blake_Nathaniel_(outfit)"
+   ]
+  },
+  "Burial Robes": {
+   "wornBy": "Displayed on a mannequin in the morgue.",
+   "howToGet": "Take it from the mannequin in the morgue.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Burial_Robes_(outfit)"
+   ]
+  },
+  "Butler": {
+   "wornBy": "Constantin, the Constant's butler.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Butler_(outfit)"
+   ]
+  },
+  "Castle Staff": {
+   "wornBy": "Upper-level waiters of the Ark Society.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Castle_Staff_(outfit)"
+   ]
+  },
+  "Chef": {
+   "wornBy": "The chef inside the castle kitchen.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Chef_(outfit)"
+   ]
+  },
+  "Custodian": {
+   "wornBy": "Custodians of the Ark Society.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Custodian_(outfit)"
+   ]
+  },
+  "Elite Guard": {
+   "wornBy": "Elite guards protecting both targets.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Elite_Guard_(outfit)"
+   ]
+  },
+  "Entertainer": {
+   "wornBy": "Musicians hired for the gathering.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Entertainer_(outfit)"
+   ]
+  },
+  "Event Staff": {
+   "wornBy": "Waiters hired for the gathering.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Event_Staff_(outfit)"
+   ]
+  },
+  "Guard": {
+   "wornBy": "Guards patrolling the Ark Society grounds.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Guard_(outfit)"
+   ]
+  },
+  "Initiate": {
+   "wornBy": "Initiates trying to join the Ark Society.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Initiate_(outfit)"
+   ]
+  },
+  "Jebediah Block": {
+   "wornBy": "Jebediah Block, coal baron and Ark Society leader.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Jebediah_Block_(outfit)"
+   ]
+  },
+  "Knight's Armor": {
+   "wornBy": "Displayed on plinths in the penthouse.",
+   "howToGet": "Take it from the display racks in the penthouse.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Knight's_Armor_(outfit)"
+   ]
+  },
+  "Master of Ceremonies": {
+   "wornBy": "Axel Phenniger.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Master_of_Ceremonies_(outfit)"
+   ]
+  },
+  "Raider": {
+   "wornBy": "Ex-CICADA mercenaries employed by the Washington twins.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Raider_(outfit)"
+   ]
+  }
+ },
+ "new-york": {
+  "Bank Robber": {
+   "wornBy": "Would-be robbers in the bank.",
+   "howToGet": "Found in a duffel bag in the ground floor bathroom (Teller Hall).",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Bank_Robber_(outfit)"
+   ]
+  },
+  "Bank Teller": {
+   "wornBy": "Milton-Fitzpatrick bank tellers.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Bank_Teller_(outfit)"
+   ]
+  },
+  "Fired Banker": {
+   "wornBy": "Roger Jackson, a fired banker.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Fired_Banker_(outfit)"
+   ]
+  },
+  "High Security Guard": {
+   "wornBy": "High-level bank security guards.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/High_Security_Guard_(outfit)"
+   ]
+  },
+  "Investment Banker": {
+   "wornBy": "Investment bankers and stock traders.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Investment_Banker_(outfit)"
+   ]
+  },
+  "IT Worker": {
+   "wornBy": "IT workers Joss and Roy.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/IT_Worker_(outfit)"
+   ]
+  },
+  "Janitor": {
+   "wornBy": "Bank janitors on the ground and first floors.",
+   "howToGet": "Start on the first floor mezzanine to begin already wearing it.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Janitor_(outfit)"
+   ]
+  },
+  "Job Applicant": {
+   "wornBy": "Mr. Thomas, a job applicant.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Job_Applicant_(outfit)"
+   ]
+  },
+  "Security Guard": {
+   "wornBy": "Low-ranking bank security guards.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Security_Guard_(outfit)"
+   ]
+  }
+ },
+ "haven-island": {
+  "Boat Captain": {
+   "wornBy": "The old captain in the cocktail bar.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Boat_Captain_(outfit)"
+   ]
+  },
+  "Bodyguard": {
+   "wornBy": "Bodyguards in The Last Resort.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Bodyguard_(outfit)"
+   ]
+  },
+  "Butler": {
+   "wornBy": "Carl Lewis, Tyson Williams' butler.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Butler_(outfit)"
+   ]
+  },
+  "Chef": {
+   "wornBy": "The two chefs in the restaurant kitchen.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Chef_(outfit)"
+   ]
+  },
+  "Doctor": {
+   "wornBy": "Dr. Singh, Tyson Williams' personal doctor.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Doctor_(outfit)"
+   ]
+  },
+  "Gas Suit": {
+   "wornBy": null,
+   "howToGet": "Found in the locker room of the underground server farm.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Gas_Suit_(outfit)"
+   ]
+  },
+  "Life Guard": {
+   "wornBy": "Life guards of the Haven Resort.",
+   "howToGet": "Wiki says it is easy to obtain.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Life_Guard_(outfit)"
+   ]
+  },
+  "Masseur": {
+   "wornBy": "Male masseurs in the spa area.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Masseur_(outfit)"
+   ]
+  },
+  "Personal Trainer": {
+   "wornBy": "The personal trainer in the gym.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Personal_Trainer_(outfit)"
+   ]
+  },
+  "Resort Guard": {
+   "wornBy": "Low-level guards patrolling the resort.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Resort_Guard_(outfit)"
+   ]
+  },
+  "Resort Staff": {
+   "wornBy": "Haven resort staff.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Resort_Staff_(outfit)"
+   ]
+  },
+  "Snorkel Instructor": {
+   "wornBy": "The resort's snorkel instructor.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Snorkel_Instructor_(outfit)"
+   ]
+  },
+  "Swimwear": {
+   "wornBy": null,
+   "howToGet": "Found in a drawstring bag inside the reef shark hut.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Swimwear_(outfit)"
+   ]
+  },
+  "Tech Crew": {
+   "wornBy": "Technicians in the underground server farm.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Tech_Crew_(outfit)"
+   ]
+  },
+  "Villa Guard": {
+   "wornBy": "High-level guards protecting the villa and private island.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Villa_Guard_(outfit)"
+   ]
+  },
+  "Villa Staff": {
+   "wornBy": "Staff of Tyson Williams' villa.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Villa_Staff_(outfit)"
+   ]
+  },
+  "Waiter": {
+   "wornBy": "Waiters of Haven's restaurant.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Waiter_(outfit)"
+   ]
+  }
+ },
+ "dubai": {
+  "Art Crew": {
+   "wornBy": "Crew members tending Lucy Phillips' Accumulus art installation.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Art_Crew_(outfit)"
+   ]
+  },
+  "Famous Chef": {
+   "wornBy": "Roberto Franculitta, Carl Ingram's chef in the penthouse.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Famous_Chef_(outfit)"
+   ]
+  },
+  "Ingram's Bodyguard": {
+   "wornBy": "Bodyguards protecting Carl Ingram.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Ingram's_Bodyguard_(outfit)"
+   ]
+  },
+  "Maintenance Staff": {
+   "wornBy": "Maintenance workers in the Burj Al-Ghazali.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Maintenance_Staff_(outfit)"
+   ]
+  },
+  "Penthouse Guard": {
+   "wornBy": "Security guards of the Burj Al-Ghazali penthouse.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Penthouse_Guard_(outfit)"
+   ]
+  },
+  "Penthouse Staff": {
+   "wornBy": "Staff working in the Burj Al-Ghazali penthouse.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Penthouse_Staff_(outfit)"
+   ]
+  },
+  "The Assassin": {
+   "wornBy": "Zana Kazem, the assassin known as the Vulture.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/The_Assassin_(outfit)"
+   ]
+  }
+ },
+ "dartmoor": {
+  "Bodyguard": {
+   "wornBy": "Alexa Carlisle's bodyguards.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Ingram's_Bodyguard_(outfit)"
+   ]
+  },
+  "Lawyer": {
+   "wornBy": "Aron Ford Jr., junior partner at Morgan, Yates & Kohn.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Lawyer_(outfit)"
+   ]
+  },
+  "Mansion Staff": {
+   "wornBy": "Staff of Thornbridge Manor.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Mansion_Staff_(outfit)"
+   ]
+  },
+  "Private Investigator": {
+   "wornBy": "Phineas Whitmer, a P.I. from London hired by Alexa Carlisle.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Private_Investigator_(outfit)"
+   ]
+  },
+  "Undertaker": {
+   "wornBy": "Leonard Parsons, the undertaker found in the graveyard next to the manor.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Undertaker_(outfit)"
+   ]
+  }
+ },
+ "berlin": {
+  "Bartender": {
+   "wornBy": "Bartenders at Club Hölle.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Bartender_(outfit)"
+   ]
+  },
+  "Club Crew": {
+   "wornBy": "Crew members working at Club Hölle.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Club_Crew_(outfit)"
+   ]
+  },
+  "Club Security": {
+   "wornBy": "Security guards at Club Hölle.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Club_Security_(outfit)"
+   ]
+  },
+  "Dealer": {
+   "wornBy": "Michail 'Mishoo' Nenkov, the drug dealer in Club Hölle.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Dealer_(outfit)"
+   ]
+  },
+  "Delivery Guy": {
+   "wornBy": "Hugo Großer, the delivery man bringing food to the biker hangout.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Delivery_Guy_(outfit)"
+   ]
+  },
+  "DJ": {
+   "wornBy": "The Sündhafter Puls DJs at the dance floor.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/DJ_(outfit)"
+   ]
+  },
+  "Florida Man": {
+   "wornBy": "Nicholas Velmorres, roaming inside Club Hölle near the Basement Bar and Projection Bar.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Florida_Man_(outfit)"
+   ]
+  },
+  "Rolf Hirschmüller": {
+   "wornBy": "Rolf Hirschmüller, owner of Club Hölle and leader of the Ragnarok Disciples.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Rolf_Hirschm%C3%BCller_(outfit)"
+   ]
+  },
+  "Technician": {
+   "wornBy": "Technicians working at Club Hölle.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Technician_(outfit)"
+   ]
+  }
+ },
+ "chongqing": {
+  "Block Guard": {
+   "wornBy": "Guards patrolling The Block apartments.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Block_Guard_(outfit)"
+   ]
+  },
+  "Dumpling Cook": {
+   "wornBy": "Restaurant chefs, including Ai Jin, and ICA staff posing as chefs.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Dumpling_Cook_(outfit)"
+   ]
+  },
+  "Facility Analyst": {
+   "wornBy": "Behavioral analysts in the ICA data center.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Facility_Analyst_(outfit)"
+   ]
+  },
+  "Facility Engineer": {
+   "wornBy": "Engineers in the ICA data center.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Facility_Engineer_(outfit)"
+   ]
+  },
+  "Facility Guard": {
+   "wornBy": "High-ranking ICA data center guards.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Facility_Guard_(outfit)"
+   ]
+  },
+  "Facility Security": {
+   "wornBy": "Low-ranking ICA data center guards.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Facility_Security_(outfit)"
+   ]
+  },
+  "Homeless Person": {
+   "wornBy": "Homeless people on the streets of Yuzhong District.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Homeless_Person_(outfit)"
+   ]
+  },
+  "Perfect Test Subject": {
+   "wornBy": "Xiang Wei and Mei Sun, test subjects in The Block.",
+   "howToGet": "Take it from the test subject hiding in the bathroom.",
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Perfect_Test_Subject_(outfit)"
+   ]
+  },
+  "Street Guard": {
+   "wornBy": "Guards patrolling the streets and the ICA and Block entrances.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Street_Guard_(outfit)"
+   ]
+  },
+  "The Board Member": {
+   "wornBy": "Angus Pritchard, an ICA board member touring the data center.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/The_Board_Member_(outfit)"
+   ]
+  }
+ },
+ "mendoza": {
+  "Asado Chef": {
+   "wornBy": "The Llosa Brothers, chefs preparing asado for Yates' party.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Asado_Chef_(outfit)"
+   ]
+  },
+  "Chief Winemaker": {
+   "wornBy": "Gabriel Vargas, Yates' chief winemaker.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Chief_Winemaker_(outfit)"
+   ]
+  },
+  "Corvo Black": {
+   "wornBy": "Corvo Black, fixer for Don Yates and Morgan, Yates & Kohn.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Corvo_Black_(outfit)"
+   ]
+  },
+  "Gaucho": {
+   "wornBy": "Gauchos guarding the vineyard and production areas.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Gaucho_(outfit)"
+   ]
+  },
+  "Head of Security": {
+   "wornBy": "Juan Cortázar, Yates' head of security.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Head_of_Security_(outfit)"
+   ]
+  },
+  "Lawyer": {
+   "wornBy": "Aron Ford Jr., junior partner at Morgan, Yates & Kohn.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Lawyer_(outfit)"
+   ]
+  },
+  "Mercenary": {
+   "wornBy": "Elite mercenaries ('Jaguars') protecting Don Yates.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Mercenary_(outfit)"
+   ]
+  },
+  "Providence Herald": {
+   "wornBy": "Providence Heralds attending Yates' retirement party.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Providence_Herald_(outfit)"
+   ]
+  },
+  "Sommelier": {
+   "wornBy": "Kenneth Flowers, Yates' sommelier.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Sommelier_(outfit)"
+   ]
+  },
+  "Tango Musician": {
+   "wornBy": "The Tango Musicians hired for the party.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Tango_Musician_(outfit)"
+   ]
+  },
+  "Winery Worker": {
+   "wornBy": "Workers tending the vineyards and winemaking equipment.",
+   "howToGet": null,
+   "freelancerNote": null,
+   "sources": [
+    "https://hitman.fandom.com/wiki/Winery_Worker_(outfit)"
+   ]
+  }
+ }
+}

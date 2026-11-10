@@ -34,6 +34,9 @@ async function pool(items, size, fn) {
   }));
 }
 
+const KEEP_GROUPS = ['Starting Location', 'Stash', 'Safe', 'Disguise', 'Misc Item'];
+const round = (x) => Math.round(Number(x) * 1000) / 1000;
+
 const maps = [];
 const icons = new Set();
 
@@ -52,6 +55,7 @@ for (const game of GAMES) {
       const nodeData = await get(`${base}/nodes`);
       const nodes = nodeData.nodes
         .filter((n) => n.variants.some((v) => variantIds.includes(v)))
+        .filter((n) => n.type === 'Weapons and Tools' || KEEP_GROUPS.includes(n.group))
         .map((n) => {
           icons.add(n.icon);
           return {
@@ -80,7 +84,7 @@ for (const game of GAMES) {
         d.areas = disguiseAreas.map((a) => ({
           level: a.level,
           type: a.type,
-          vertices: a.vertices.map((v) => v.split(',').map(Number)),
+          vertices: a.vertices.map((v) => v.split(',').map(round)),
         }));
         const img = await get(d.image, 'buffer').catch(() => null);
         if (img) {

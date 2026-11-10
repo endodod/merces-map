@@ -1,0 +1,83 @@
+{
+ "rules": [
+  {
+   "text": "A weapon or tool found on the map that has a Freelancer rarity tier (Common, Rare, Epic or Legendary) is added to your Safehouse collection if you finish the mission with it in your inventory. This also works if you exit without eliminating all targets.",
+   "sources": [
+    "https://hitman.fandom.com/wiki/Freelancer"
+   ]
+  },
+  {
+   "text": "Weapons and tools without a rarity tier are lost when the mission ends. Everyday props (bananas, coins, propane flasks, kitchen knives, etc.) are not on any rarity list, so they are shown here as map-only items.",
+   "sources": [
+    "https://hitman.fandom.com/wiki/Freelancer",
+    "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Common",
+    "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Rare",
+    "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Epic",
+    "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Legendary"
+   ]
+  },
+  {
+   "text": "If the mission is failed (47 is wounded), the weapons found or brought on that mission are lost.",
+   "sources": [
+    "https://hitman.fandom.com/wiki/Freelancer",
+    "https://www.shacknews.com/article/133883/hitman-freelancer-weapons"
+   ]
+  },
+  {
+   "text": "Rarity tiers on this site are matched by item name against the Hitman Wiki's Freelancer rarity lists. Items whose name is not on those lists are treated as map-only.",
+   "sources": [
+    "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Common",
+    "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Rare",
+    "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Epic",
+    "https://hitman.fandom.com/wiki/Template:Freelancer_Rarity_Tab-_Legendary"
+   ]
+  }
+ ],
+ "stashAndSafes": {
+  "text": "Stashes are scattered across each map and contain Merces (Freelancer currency). Safes are opened by finding the clues nearby, or with explosives, and also give Merces. Merces only count if you return to the Safehouse successfully.",
+  "sources": [
+   "https://hitman.fandom.com/wiki/Freelancer"
+  ]
+ },
+ "rarity": {
+  "Remote Explosive": "Common",
+  "Bartoli 12G": "Common",
+  "Bartoli 75R": "Common",
+  "Bartoli 75S": "Common",
+  "Bartoli Hunting Shotgun": "Common",
+  "Bartoli Woodsman Hunting Rifle": "Common",
+  "DAK X2": "Common",
+  "Fusil G1-4": "Common",
+  "Fusil G1-4/C": "Common",
+  "Fusil G2": "Common",
+  "Golden Sawed Off Bartoli 12G": "Legendary",
+  "HX-10": "Common",
+  "HX-7": "Common",
+  "Hackl 9S Covert": "Rare",
+  "Sawed-Off Bartoli 12G": "Rare",
+  "Shashka A33": "Common",
+  "TAC-4 AR Auto": "Common",
+  "Tactical Bartoli 12G": "Common",
+  "Amputation Knife": "Common",
+  "Circumcision Knife": "Rare",
+  "Folding Knife": "Common",
+  "Katana": "Epic",
+  "Machete": "Common",
+  "Saber": "Rare",
+  "Sapper's Axe": "Rare",
+  "Tanto": "Rare",
+  "Disposable Scrambler": "Common",
+  "Oil Canister": "Common",
+  "Baseball Bat": "Common",
+  "Claw Hammer": "Common",
+  "Mace": "Rare",
+  "Police Baton": "Common",
+  "Chloroform Flask": "Rare",
+  "Emetic Pills": "Rare",
+  "Lethal Pills": "Rare",
+  "Lethal Poison Vial": "Common",
+  "Modern Emetic Syringe": "Common",
+  "Modern Lethal Syringe": "Common",
+  "Modern Sedative Syringe": "Common"
+ }
+}
