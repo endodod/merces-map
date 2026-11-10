@@ -31,6 +31,7 @@ export function About({ snapshotDate, hideout, sources, onClose }: { snapshotDat
           <li><b>Disguise portraits</b>: in-game images from HITMAN by IO Interactive, as served by HITMAPS.</li>
           <li><b>Disguise descriptions</b>: summarised from the <a href="https://hitman.fandom.com" target="_blank" rel="noreferrer">Hitman Wiki</a> (CC BY-SA 3.0) and other public guides, linked per entry.</li>
           <li><b>Where disguises are found, fast tips and map briefings</b>: Hitman Wiki and public guides (GamePressure, PowerPyx, GamesHedge), linked per entry. Tips that rely on story targets or starting locations missing in Freelancer were left out.</li>
+          <li><b>Weapons dropped by NPCs</b>: Hitman Wiki (Freelancer item locations, weapon pages) and a Steam community guide.</li>
           <li><b>Rarity tiers and the collection checklist</b>: the Hitman Wiki's Freelancer rarity lists and Safehouse page.</li>
           <li><b>Stash/safe behaviour</b>: Hitman Wiki, PC Gamer and a Steam community guide.</li>
           <li><b>Merces Map logo, layout and code</b>: made for this project.</li>

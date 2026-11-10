@@ -1,0 +1,18 @@
+{
+ "dubai": [
+  {"weapon": "DAK DTI", "rarity": "Rare", "carriedBy": "Penthouse Guards and Ingram's Bodyguards", "disguise": "Penthouse Guard", "where": "Penthouse", "concealable": true, "note": "Suppressed SMG.", "sources": ["https://hitman.fandom.com/wiki/Freelancer/Item_Locations", "https://steamcommunity.com/sharedfiles/filedetails/?id=3127926392", "https://hitman.fandom.com/wiki/DAK_DTI"]},
+  {"weapon": "Shashka A33 Covert", "rarity": "Rare", "carriedBy": "Penthouse Guards", "disguise": "Penthouse Guard", "where": "Penthouse", "concealable": false, "note": "Suppressed assault rifle.", "sources": ["https://hitman.fandom.com/wiki/Freelancer/Item_Locations", "https://steamcommunity.com/sharedfiles/filedetails/?id=3127926392", "https://hitman.fandom.com/wiki/Shashka_A33_Covert"]}
+ ],
+ "whittleton-creek": [
+  {"weapon": "HX-7 Covert", "rarity": "Rare", "carriedBy": "Cassidy Bodyguards", "disguise": "Cassidy Bodyguard", "where": "Cassidy property", "concealable": false, "note": "Suppressed SMG.", "sources": ["https://hitman.fandom.com/wiki/Freelancer/Item_Locations", "https://steamcommunity.com/sharedfiles/filedetails/?id=3127926392"]},
+  {"weapon": "Hackl 9S Covert", "rarity": "Rare", "carriedBy": "the Garbage Man in the Griswold basement", "disguise": "Garbage Man", "where": "Griswold house basement", "concealable": true, "note": "Suppressed pistol. Only there when a safe spawns in that basement.", "sources": ["https://hitman.fandom.com/wiki/Freelancer/Item_Locations", "https://hitman.fandom.com/wiki/Hackl_9S_Covert"]}
+ ],
+ "ambrose-island": [
+  {"weapon": "DAK X2 Covert", "rarity": "Rare", "carriedBy": "Noel Crest", "disguise": null, "where": "Shed west of Akka's compound", "concealable": true, "note": "Suppressed SMG.", "sources": ["https://hitman.fandom.com/wiki/Freelancer/Item_Locations", "https://steamcommunity.com/sharedfiles/filedetails/?id=3127926392"]}
+ ],
+ "mendoza": [
+  {"weapon": "DAK X2 Covert", "rarity": "Rare", "carriedBy": "a Bodyguard", "disguise": "Bodyguard", "where": "Stairs between the dance floor and the asado", "concealable": true, "note": "Suppressed SMG.", "sources": ["https://hitman.fandom.com/wiki/Freelancer/Item_Locations", "https://steamcommunity.com/sharedfiles/filedetails/?id=3127926392"]},
+  {"weapon": "HX-7 Covert", "rarity": "Rare", "carriedBy": "a Mercenary", "disguise": "Mercenary", "where": "Villa", "concealable": false, "note": "Suppressed SMG. The Mercenary only appears when the safe spawns in the Villa dining room.", "sources": ["https://steamcommunity.com/sharedfiles/filedetails/?id=3127926392"]},
+  {"weapon": "Hackl 9S Covert", "rarity": "Rare", "carriedBy": "a Bodyguard in the Cinema (wiki) or a Mercenary (Steam guide)", "disguise": null, "where": "Cinema", "concealable": true, "note": "Suppressed pistol. Only there when a safe spawns in the Cinema; sources disagree on who carries it.", "sources": ["https://hitman.fandom.com/wiki/Freelancer/Item_Locations", "https://steamcommunity.com/sharedfiles/filedetails/?id=3127926392"]}
+ ]
+}

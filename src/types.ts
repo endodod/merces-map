@@ -93,6 +93,17 @@ export interface BriefingPick {
   sources: string[];
 }
 
+export interface NpcWeapon {
+  weapon: string;
+  rarity: string;
+  carriedBy: string;
+  disguise: string | null;
+  where: string;
+  concealable: boolean;
+  note: string | null;
+  sources: string[];
+}
+
 export interface CollectionData {
   basis: string;
   sources: string[];
@@ -107,4 +118,5 @@ export interface Index {
   items: ItemIndexEntry[];
   briefings: Record<string, BriefingPick[]>;
   collection: CollectionData;
+  npcWeapons: Record<string, NpcWeapon[]>;
 }

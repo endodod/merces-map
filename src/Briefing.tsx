@@ -1,9 +1,10 @@
 import { RARITY_ORDER } from './data';
 import { Linked } from './Linked';
-import type { BriefingPick, MapNode } from './types';
+import type { BriefingPick, MapNode, NpcWeapon } from './types';
 
 interface Props {
   picks: BriefingPick[];
+  npcWeapons: NpcWeapon[];
   loot: { name: string; icon: string; rarity: string; count: number }[];
   onDisguise: (name: string) => void;
   onItem: (name: string) => void;
@@ -16,7 +17,7 @@ export const RarityBadge = ({ rarity }: { rarity: string }) => (
   <span className={`rarity r-${rarity.toLowerCase()}`}>{rarity}</span>
 );
 
-export function Briefing({ picks, loot, onDisguise, onItem, areas, floor, onFocus }: Props) {
+export function Briefing({ picks, npcWeapons, loot, onDisguise, onItem, areas, floor, onFocus }: Props) {
   const L = (text: string) => <Linked text={text} areas={areas} floor={floor} onFocus={onFocus} />;
   // Common items (guard pistols, rifles, shotguns, ...) are on almost every map, so only Rare and up are listed.
   const sorted = loot
@@ -50,6 +51,27 @@ export function Briefing({ picks, loot, onDisguise, onItem, areas, floor, onFocu
           </li>
         ))}
       </ul>
+      {npcWeapons.length > 0 && (
+        <>
+          <h4>Dropped by NPCs</h4>
+          <ul className="loot npc">
+            {npcWeapons.map((w) => (
+              <li key={w.weapon + w.carriedBy}>
+                <div className="npc-head">
+                  <b>{w.weapon}</b>
+                  {w.concealable && <span className="tag">pocketable</span>}
+                  <RarityBadge rarity={w.rarity} />
+                </div>
+                <div className="muted small">
+                  Carried by{' '}
+                  {w.disguise ? <button className="link" onClick={() => onDisguise(w.disguise!)}>{w.carriedBy}</button> : w.carriedBy}
+                  {' '}— {L(w.where)}. {w.note && L(w.note)}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
       {commonCount > 0 && (
         <p className="muted small">
           {commonCount} common item{commonCount > 1 ? 's' : ''} not listed (still shown on the map under Freelancer items).

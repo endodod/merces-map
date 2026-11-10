@@ -24,15 +24,16 @@ async function json<T>(path: string): Promise<T> {
 }
 
 export async function loadIndex(): Promise<Index> {
-  const [maps, hideout, disguiseInfo, items, briefings, collection] = await Promise.all([
+  const [maps, hideout, disguiseInfo, items, briefings, collection, npcWeapons] = await Promise.all([
     json<Pick<Index, 'snapshotDate' | 'maps'>>('data/maps.json'),
     json<HideoutRules>('data/hideout.json'),
     json<Index['disguiseInfo']>('data/disguise-info.json'),
     json<Index['items']>('data/items.json'),
     json<Index['briefings']>('data/briefings.json'),
     json<Index['collection']>('data/collection.json'),
+    json<Index['npcWeapons']>('data/npc-weapons.json'),
   ]);
-  return { ...maps, hideout, disguiseInfo, items, briefings, collection };
+  return { ...maps, hideout, disguiseInfo, items, briefings, collection, npcWeapons };
 }
 
 export const loadMap = async (id: string): Promise<MapData> => ({ ...(await json<Omit<MapData, 'mapId'>>(`data/${id}.json`)), mapId: id });

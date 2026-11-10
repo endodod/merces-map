@@ -27,6 +27,7 @@ function allSources(index: Index) {
   for (const r of [...index.hideout.rules, ...(index.hideout.stashAndSafes ? [index.hideout.stashAndSafes] : [])]) r.sources.forEach((s) => urls.add(s));
   for (const map of Object.values(index.disguiseInfo)) for (const d of Object.values(map)) d.sources.forEach((s) => urls.add(s));
   for (const picks of Object.values(index.briefings)) for (const p of picks) p.sources.forEach((s) => urls.add(s));
+  for (const list of Object.values(index.npcWeapons)) for (const w of list) w.sources.forEach((s) => urls.add(s));
   return [...urls].filter((u) => /^https?:\/\//.test(u));
 }
 
@@ -305,6 +306,7 @@ export default function App() {
             {data && (
               <Briefing
                 picks={index.briefings[meta.id] ?? []}
+                npcWeapons={index.npcWeapons[meta.id] ?? []}
                 loot={loot}
                 onDisguise={selectDisguiseByName}
                 onItem={(name) => findItem(name, meta.id)}

@@ -248,3 +248,6 @@ select {
 .modal details { margin: 4px 0; }
 .modal summary { cursor: pointer; }
 .modal details ul { margin: 4px 0 8px; word-break: break-all; }
+.npc li { display: block; padding: 4px 0; }
+.npc-head { display: flex; align-items: center; gap: 6px; }
+.tag { font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: #8fc1ff; border: 1px solid #2d5a8a; border-radius: 3px; padding: 0 5px; }
