@@ -11,7 +11,7 @@ const GAMES = ['hitman', 'hitman2', 'hitman3'];
 async function get(url, type = 'json') {
   for (let attempt = 1; ; attempt++) {
     try {
-      const res = await fetch(url, { headers: { 'User-Agent': 'freelancer-map-snapshot' } });
+      const res = await fetch(url, { headers: { 'User-Agent': 'merces-map-snapshot' } });
       if (!res.ok) throw new Error(`${res.status} ${url}`);
       return type === 'json' ? res.json() : Buffer.from(await res.arrayBuffer());
     } catch (err) {

@@ -99,9 +99,9 @@ export default function App() {
       <aside className="panel">
         <header>
           <div className="brand">
-            <span className="logo">47</span>
+            <img className="logo" src="favicon.svg" alt="" />
             <div>
-              <div className="title">Freelancer Maps</div>
+              <div className="title">Merces Map</div>
               <button className="link small" onClick={() => setAbout(true)}>About & sources</button>
             </div>
           </div>
@@ -171,7 +171,10 @@ export default function App() {
         )}
 
         <footer className="muted small">
-          Data: <a href={meta.source} target="_blank" rel="noreferrer">HITMAPS</a>, snapshot {index.snapshotDate}
+          Unofficial fan project. Map and item data from{' '}
+          <a href={meta.source} target="_blank" rel="noreferrer">HITMAPS</a> (snapshot {index.snapshotDate}).
+          HITMAN and its assets © IO Interactive.{' '}
+          <button className="link" onClick={() => setAbout(true)}>Full credits</button>
         </footer>
       </aside>
 
