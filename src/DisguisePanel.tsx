@@ -22,7 +22,9 @@ function DisguiseCard({ d, info, pickups, onFocus }: { d: Disguise; info?: Disgu
         </div>
       </div>
       {info?.wornBy && <p><b>Worn by:</b> {info.wornBy}</p>}
+      {info?.foundAt && <p><b>Found at:</b> {info.foundAt}</p>}
       {info?.howToGet && <p><b>How to get:</b> {info.howToGet}</p>}
+      {info?.fastTip && <p><b>Fast tip:</b> {info.fastTip}</p>}
       {pickups.length > 0 && (
         <div>
           <b>Lying around ({pickups.length}):</b>
@@ -37,7 +39,7 @@ function DisguiseCard({ d, info, pickups, onFocus }: { d: Disguise; info?: Disgu
           </ul>
         </div>
       )}
-      {!d.suit && !info?.howToGet && pickups.length === 0 && (
+      {!d.suit && !info?.howToGet && !info?.fastTip && pickups.length === 0 && (
         <p className="muted">No specific tip found in sources. General method: subdue an NPC wearing it and take the outfit.</p>
       )}
       {info?.freelancerNote && <p className="warn">{info.freelancerNote}</p>}
@@ -54,6 +56,7 @@ function DisguiseCard({ d, info, pickups, onFocus }: { d: Disguise; info?: Disgu
       </div>
       {info && info.sources.length > 0 && (
         <div className="sources">
+          Descriptions are based on main-mission guides; story targets and their scripted scenes are absent in Freelancer.<br />
           Sources: {info.sources.map((s, i) => <a key={s} href={s} target="_blank" rel="noreferrer">[{i + 1}]</a>)}
         </div>
       )}

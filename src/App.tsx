@@ -8,7 +8,7 @@ import type { Disguise, Index, MapData, MapNode, Variant } from './types';
 const LAYERS: { id: Layer; label: string; icon: string }[] = [
   { id: 'spawn', label: 'Starting locations', icon: 'starting-location' },
   { id: 'freelancer', label: 'Freelancer items (hideout)', icon: 'firearm' },
-  { id: 'stash', label: 'Stashes & safes', icon: 'freelancer-item' },
+  { id: 'stash', label: 'Stashes & safes (possible spots)', icon: 'freelancer-item' },
   { id: 'map', label: 'Map-only items', icon: 'propane-flask' },
   { id: 'disguise', label: 'Disguise pickups', icon: 'disguise' },
 ];
@@ -29,7 +29,10 @@ export default function App() {
 
   useEffect(() => {
     loadIndex().then(setIndex, (e) => setError(String(e)));
-    const onHash = () => setMapId(decodeURIComponent(location.hash.slice(1)));
+    const onHash = () => {
+      const id = decodeURIComponent(location.hash.slice(1));
+      if (id) setMapId(id);
+    };
     addEventListener('hashchange', onHash);
     return () => removeEventListener('hashchange', onHash);
   }, []);
@@ -79,6 +82,12 @@ export default function App() {
   const layerCounts = useMemo(() => {
     const c: Partial<Record<Layer, number>> = {};
     for (const { layer } of classified) c[layer] = (c[layer] ?? 0) + 1;
+    return c;
+  }, [classified]);
+
+  const groupCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    for (const { n, layer } of classified) if (layer === 'map') c[n.group] = (c[n.group] ?? 0) + 1;
     return c;
   }, [classified]);
 
@@ -140,20 +149,28 @@ export default function App() {
             </label>
           ))}
           {layers.map && (
-            <div className="chips">
+            <div className="sublayers">
+              <div className="sublayers-head">
+                <span>Item types</span>
+                <button className="link" onClick={() => setGroups(new Set(MAP_GROUPS.map((g) => g.id)))}>All</button>
+                <button className="link" onClick={() => setGroups(new Set())}>None</button>
+              </div>
               {MAP_GROUPS.map((g) => (
-                <button
-                  key={g.id}
-                  className={`chip ${groups.has(g.id) ? 'active' : ''}`}
-                  onClick={() => {
-                    const next = new Set(groups);
-                    if (next.has(g.id)) next.delete(g.id);
-                    else next.add(g.id);
-                    setGroups(next);
-                  }}
-                >
-                  {g.label}
-                </button>
+                <label key={g.id} className="toggle sub">
+                  <input
+                    type="checkbox"
+                    checked={groups.has(g.id)}
+                    onChange={() => {
+                      const next = new Set(groups);
+                      if (next.has(g.id)) next.delete(g.id);
+                      else next.add(g.id);
+                      setGroups(next);
+                    }}
+                  />
+                  <img src={`icons/${g.icon}.png`} alt="" />
+                  <span>{g.label}</span>
+                  <span className="count">{groupCounts[g.id] ?? 0}</span>
+                </label>
               ))}
             </div>
           )}

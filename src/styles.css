@@ -68,9 +68,12 @@ select {
 .toggle img { width: 22px; height: 22px; }
 .count { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
 
-.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 0 30px; }
-.chip { background: var(--panel-2); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; font-size: 12px; color: var(--muted); }
-.chip.active { border-color: var(--accent); color: var(--text); background: var(--accent-soft); }
+.sublayers { margin: 2px 0 4px 6px; padding-left: 14px; border-left: 2px solid var(--line); }
+.sublayers-head { display: flex; gap: 10px; align-items: baseline; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; padding: 2px 0; }
+.sublayers-head span { margin-right: auto; }
+.sublayers-head .link { font-size: 11px; text-transform: none; letter-spacing: 0; }
+.toggle.sub { grid-template-columns: auto 18px 1fr auto; padding: 3px 0; font-size: 13px; color: #c9cdd2; }
+.toggle.sub img { width: 18px; height: 18px; }
 
 /* disguises */
 .disguise-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 6px; }

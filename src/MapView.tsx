@@ -48,7 +48,7 @@ function popupHtml(n: MapNode, rarity: Record<string, string>) {
 export function MapView({ meta, floor, nodes, areas, highlight, focus, rarity }: Props) {
   const el = useRef<HTMLDivElement>(null);
   const map = useRef<L.Map | null>(null);
-  const overlay = useRef<L.ImageOverlay | null>(null);
+  const overlay = useRef<L.SVGOverlay | null>(null);
   const markerLayer = useRef<L.LayerGroup | null>(null);
   const areaLayer = useRef<L.LayerGroup | null>(null);
   const markerById = useRef(new Map<number, L.Marker>());
@@ -57,7 +57,7 @@ export function MapView({ meta, floor, nodes, areas, highlight, focus, rarity }:
     const m = L.map(el.current!, {
       crs: L.CRS.Simple,
       minZoom: meta.minZoom,
-      maxZoom: meta.maxZoom + 1,
+      maxZoom: meta.maxZoom + 2,
       zoomSnap: 0.5,
       maxBounds: L.latLngBounds(meta.viewBounds).pad(0.15),
       maxBoundsViscosity: 0.8,
@@ -65,6 +65,7 @@ export function MapView({ meta, floor, nodes, areas, highlight, focus, rarity }:
       zoomControl: false,
     }).setView(meta.center, meta.minZoom);
     L.control.zoom({ position: 'bottomright' }).addTo(m);
+    m.createPane('floor').style.zIndex = '150';
     areaLayer.current = L.layerGroup().addTo(m);
     markerLayer.current = L.layerGroup().addTo(m);
     map.current = m;
@@ -74,11 +75,24 @@ export function MapView({ meta, floor, nodes, areas, highlight, focus, rarity }:
     };
   }, [meta]);
 
+  // Floors are embedded as inline SVG (not <img>) so the browser redraws them as vectors at every zoom level.
   useEffect(() => {
-    overlay.current?.remove();
-    overlay.current = L.imageOverlay(`maps/${meta.mapFolder}/${floor}.svg`, meta.imageBounds, { className: 'floor' })
-      .addTo(map.current!)
-      .bringToBack();
+    let cancelled = false;
+    fetch(`maps/${meta.mapFolder}/${floor}.svg`)
+      .then((res) => res.text())
+      .then((text) => {
+        if (cancelled || !map.current) return;
+        const svg = new DOMParser().parseFromString(text, 'image/svg+xml').documentElement as unknown as SVGSVGElement;
+        const w = parseFloat(svg.getAttribute('width') ?? '');
+        const h = parseFloat(svg.getAttribute('height') ?? '');
+        svg.setAttribute('viewBox', `0 0 ${w} ${h}`);
+        svg.setAttribute('preserveAspectRatio', 'none');
+        overlay.current?.remove();
+        overlay.current = L.svgOverlay(svg, meta.imageBounds, { pane: 'floor', interactive: false }).addTo(map.current);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, [meta, floor]);
 
   useEffect(() => {

@@ -5,14 +5,14 @@ export const GAME_NAMES = { hitman: 'HITMAN', hitman2: 'HITMAN 2', hitman3: 'HIT
 export type Layer = 'spawn' | 'freelancer' | 'stash' | 'map' | 'disguise';
 
 export const MAP_GROUPS = [
-  { id: 'Lethal Melee', label: 'Lethal melee' },
-  { id: 'Non-Lethal Melee', label: 'Non-lethal melee' },
-  { id: 'Explosive', label: 'Explosive' },
-  { id: 'Poison', label: 'Poison' },
-  { id: 'Distraction', label: 'Distraction' },
-  { id: 'Firearm', label: 'Firearm' },
-  { id: 'Ammo', label: 'Ammo' },
-  { id: 'Misc Item', label: 'Keys & misc' },
+  { id: 'Lethal Melee', label: 'Lethal melee', icon: 'lethal-melee' },
+  { id: 'Non-Lethal Melee', label: 'Non-lethal melee', icon: 'non-lethal-melee' },
+  { id: 'Explosive', label: 'Explosives', icon: 'explosive' },
+  { id: 'Poison', label: 'Poisons', icon: 'poison' },
+  { id: 'Distraction', label: 'Distractions', icon: 'distraction' },
+  { id: 'Firearm', label: 'Firearms', icon: 'firearm' },
+  { id: 'Ammo', label: 'Ammo', icon: 'ammo' },
+  { id: 'Misc Item', label: 'Keys & misc', icon: 'key' },
 ];
 
 async function json<T>(path: string): Promise<T> {

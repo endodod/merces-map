@@ -34,9 +34,12 @@
   }
  ],
  "stashAndSafes": {
-  "text": "Stashes are scattered across each map and contain Merces (Freelancer currency). Safes are opened by finding the clues nearby, or with explosives, and also give Merces. Merces only count if you return to the Safehouse successfully.",
+  "text": "Stash and safe markers are pools of possible spawn spots, not fixed locations: the Paris guide counts sixteen possible stash spawns and eight possible safe spawns, and not every mission has a safe (the briefing tells you). A safe opens by scanning its three nearby clues (documents, laptops or tablets highlighted by Instinct) or with explosives. Stashes hold a random amount of Merces. How many spots are active per run is not documented.",
   "sources": [
-   "https://hitman.fandom.com/wiki/Freelancer"
+   "https://steamcommunity.com/sharedfiles/filedetails/?id=3127926392",
+   "https://www.pcgamer.com/hitman-freelancer-safe-clues/",
+   "https://hitman.fandom.com/wiki/Freelancer",
+   "https://hitman.fandom.com/wiki/Merces"
   ]
  },
  "rarity": {

@@ -60,7 +60,9 @@ export interface MapData {
 
 export interface DisguiseInfo {
   wornBy: string | null;
+  foundAt?: string;
   howToGet: string | null;
+  fastTip?: string;
   freelancerNote: string | null;
   sources: string[];
 }
