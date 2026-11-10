@@ -174,7 +174,7 @@ select {
 }
 
 /* tabs */
-.tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin-top: 12px; }
+.tabs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; margin-top: 12px; }
 .tabs button { background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px; padding: 6px 4px; color: var(--muted); font-size: 13px; }
 .tabs button.active { border-color: var(--accent); color: var(--text); background: var(--accent-soft); }
 
@@ -222,9 +222,6 @@ select {
 .owned { color: var(--muted); text-decoration: line-through; }
 .found-on { display: flex; flex-wrap: wrap; gap: 2px 8px; margin-left: 24px; color: var(--muted); }
 
-/* showdown */
-.clue-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 10px; }
-.showdown ul { padding-left: 18px; }
 
 /* map overlays */
 .share { display: block; margin-top: 2px; pointer-events: auto; }

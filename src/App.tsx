@@ -5,7 +5,6 @@ import { Collection } from './Collection';
 import { DisguisePanel } from './DisguisePanel';
 import { ItemSearch } from './ItemSearch';
 import { MapView } from './MapView';
-import { Showdown } from './Showdown';
 import { GAME_NAMES, MAP_GROUPS, floorLabel, layerOf, loadIndex, loadMap, type Layer } from './data';
 import { saveForOffline } from './offline';
 import { useStored } from './store';
@@ -21,7 +20,7 @@ const LAYERS: { id: Layer; label: string; icon: string }[] = [
   { id: 'supplier', label: 'Suppliers', icon: 'supplier' },
 ];
 
-type Tab = 'map' | 'collection' | 'showdown';
+type Tab = 'map' | 'collection';
 
 /** URL hash: #map[/floor[/variant[/disguiseId]]] */
 function parseHash() {
@@ -214,16 +213,15 @@ export default function App() {
             </div>
           </div>
           <nav className="tabs">
-            {(['map', 'collection', 'showdown'] as Tab[]).map((t) => (
+            {(['map', 'collection'] as Tab[]).map((t) => (
               <button key={t} className={tab === t ? 'active' : ''} onClick={() => setTab(t)}>
-                {t === 'map' ? 'Map' : t === 'collection' ? 'Collection' : 'Showdown'}
+                {t === 'map' ? 'Map' : 'Collection'}
               </button>
             ))}
           </nav>
         </header>
 
         {tab === 'collection' && <Collection data={index.collection} items={index.items} maps={index.maps} onFind={findItem} />}
-        {tab === 'showdown' && <Showdown data={index.showdown} />}
 
         {tab === 'map' && (
           <>

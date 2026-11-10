@@ -99,12 +99,6 @@ export interface CollectionData {
   groups: { name: string; items: { name: string; rarity: string }[] }[];
 }
 
-export interface ShowdownData {
-  howItWorks: SourcedText;
-  categories: { name: string; values: string[]; note?: string; sources: string[] }[];
-  tips: SourcedText[];
-}
-
 export interface Index {
   snapshotDate: string;
   maps: MapMeta[];
@@ -113,5 +107,4 @@ export interface Index {
   items: ItemIndexEntry[];
   briefings: Record<string, BriefingPick[]>;
   collection: CollectionData;
-  showdown: ShowdownData;
 }

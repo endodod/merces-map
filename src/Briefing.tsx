@@ -13,7 +13,11 @@ export const RarityBadge = ({ rarity }: { rarity: string }) => (
 );
 
 export function Briefing({ picks, loot, onDisguise, onItem }: Props) {
-  const sorted = [...loot].sort((a, b) => RARITY_ORDER.indexOf(a.rarity) - RARITY_ORDER.indexOf(b.rarity) || a.name.localeCompare(b.name));
+  // Common items (guard pistols, rifles, shotguns, ...) are on almost every map, so only Rare and up are listed.
+  const sorted = loot
+    .filter((l) => l.rarity !== 'Common')
+    .sort((a, b) => RARITY_ORDER.indexOf(a.rarity) - RARITY_ORDER.indexOf(b.rarity) || a.name.localeCompare(b.name));
+  const commonCount = loot.length - sorted.length;
   return (
     <section>
       <h3>Briefing</h3>
@@ -32,7 +36,7 @@ export function Briefing({ picks, loot, onDisguise, onItem }: Props) {
         ))}
       </ul>
       <h4>Bring back to the hideout</h4>
-      {sorted.length === 0 && <p className="muted small">No items with a rarity tier on this map.</p>}
+      {sorted.length === 0 && <p className="muted small">No Rare or better items on this map.</p>}
       <ul className="loot">
         {sorted.map((l) => (
           <li key={l.name}>
@@ -44,6 +48,11 @@ export function Briefing({ picks, loot, onDisguise, onItem }: Props) {
           </li>
         ))}
       </ul>
+      {commonCount > 0 && (
+        <p className="muted small">
+          {commonCount} common item{commonCount > 1 ? 's' : ''} not listed (still shown on the map under Freelancer items).
+        </p>
+      )}
     </section>
   );
 }
